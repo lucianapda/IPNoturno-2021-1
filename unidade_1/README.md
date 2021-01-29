@@ -1,7 +1,8 @@
 # Introdução à Programação - Unidade 1
 
 ## Fundamentos da Programação de Computadores
-> Vídeo aula (1_VideoAula-1): [https://web.microsoftstream.com/video/4e5ecb83-7e7b-49c8-bb9e-3136e7269631](https://web.microsoftstream.com/video/4e5ecb83-7e7b-49c8-bb9e-3136e7269631)
+> Vídeo aula (1_VideoAula-1 14:06): [https://web.microsoftstream.com/video/4e5ecb83-7e7b-49c8-bb9e-3136e7269631](https://web.microsoftstream.com/video/4e5ecb83-7e7b-49c8-bb9e-3136e7269631)<br>
+> Vídeo aula (1_VideoAula-1 14:06): [link alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EdPfGQHjAiZGnMaWvq221ngBMk--zVdGuwCtr0-6TZXPJw?e=UHYpHy)
 
 - Os computadores são máquinas programáveis utilizadas para automatizar tarefas​.
 - As ações executadas por estas máquinas são baseadas em dados e regras que dependem da aplicação para as quais são criadas​.
