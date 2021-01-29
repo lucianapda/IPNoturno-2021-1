@@ -105,9 +105,11 @@
 ----------
 
 ### Principais Referências Bibliográficas​
-- CARBONI, Irenice de Fátima. **Lógica de programação**. São Paulo : Pioneira Thomson Learning, 2003. 240 p, il.​
-- MANZANO, Jose Augusto N. G; OLIVEIRA, Jayr Figueiredo de. **Algoritmos**: logica para desenvolvimento de programacao. Sao Paulo : Erica, 1996. 265p.​
-- SOUZA, Marco Antonio Furlan de. **Algoritmos e lógica de programação**. São Paulo : Pioneira Thomson, 2005. xxiii, 214 p, il.
-- VILARIM, Gilvan de Oliveira. **Algoritmos**: programação para iniciantes.2. ed. Rio de Janeiro : Ciência Moderna, 2004. xiv, 270 p, il.​
-- XAVIER, Gley Fabiano Cardoso. **Lógica de programação**. 7. ed. São Paulo : SENAC, 2004. xxv, 378 p, il. 1 CD-ROM. (Nova série informática).​
+- CARBONI, Irenice de Fátima. **[Lógica de programação](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=265888)**. São Paulo : Pioneira Thomson Learning, 2003. 240 p, il.​
+- MANZANO, José Augusto N. G; OLIVEIRA, Jayr Figueiredo de. **[Algoritmos: lógica para desenvolvimento de programação](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=98280)**. São Paulo : Erica, 1996. 265p.​
+- SOUZA, Marco Antônio Furlan de. **[Algoritmos e lógica de programação](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=306850)**. São Paulo : Pioneira Thomson, 2005. xxiii, 214 p, il.
+- VILARIM, Gilvan de Oliveira.
+  **[Algoritmos: programação para iniciantes.](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=319911)**
+  2. ed. Rio de Janeiro : Ciência Moderna, 2004. xiv, 270 p, il.​
+- XAVIER, Gley Fabiano Cardoso. **[Lógica de programação](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=267002)**. 7. ed. São Paulo : SENAC, 2004. xxv, 378 p, il. 1 CD-ROM. (Nova série informática).​
 ----------
