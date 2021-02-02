@@ -1,8 +1,13 @@
 # Introdução à Programação - Unidade 1
 
 ## Fundamentos da Programação de Computadores
-> Vídeo aula (1_VideoAula-1 14:06): [https://web.microsoftstream.com/video/4e5ecb83-7e7b-49c8-bb9e-3136e7269631](https://web.microsoftstream.com/video/4e5ecb83-7e7b-49c8-bb9e-3136e7269631)<br>
-> Vídeo aula (1_VideoAula-1 14:06): [link alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EdPfGQHjAiZGnMaWvq221ngBMk--zVdGuwCtr0-6TZXPJw?e=UHYpHy)
+> Vídeo aula (1_VideoAula-1 14:06):
+> [https://web.microsoftstream.com/video/4e5ecb83-7e7b-49c8-bb9e-3136e7269631](https://web.microsoftstream.com/video/4e5ecb83-7e7b-49c8-bb9e-3136e7269631
+> "primeira Video Aula da unidade 1")<br>
+> Vídeo aula (1_VideoAula-1 14:06): [link
+> alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EdPfGQHjAiZGnMaWvq221ngBMk--zVdGuwCtr0-6TZXPJw?e=UHYpHy
+> "link alternativo da primeira Video Aula da unidade 1")
+> <br>
 
 - Os computadores são máquinas programáveis utilizadas para automatizar tarefas​.
 - As ações executadas por estas máquinas são baseadas em dados e regras que dependem da aplicação para as quais são criadas​.
@@ -16,8 +21,8 @@
 ##### Imagem do bolo confeitado<br>
 ![Imagem de um bolo confeitado](imgs/img_Bolo.png "Imagem de um bolo confeitado")
 
-##### Imagem cozinhando macarrão miojo<br>
-![Imagem cozinhando macarrão miojo](imgs/img_Miojo.png "Imagem cozinhando macarrão miojo")
+##### Imagem cozinhando macarrão<br>
+![Imagem cozinhando macarrão](imgs/img_Miojo.png "Imagem cozinhando macarrão")
 
 - **A solução de um problema** com base em um **software** envolve um conjunto de **processos** (regras) que operam sobre **dados**, necessitando de **recursos** (dados de Entrada) e produzindo **resultados** (dados de Saídas)​.
 - **Processos** (regras) são as ações executadas pelo computador para operar ou transformar os dados.
@@ -32,7 +37,13 @@
 ----------
 
 ## Fundamentos da Programação de Computadores
-> Vídeo aula (1_VideoAula-2):
+> Vídeo aula (1_VideoAula-2 18:57):
+> [https://web.microsoftstream.com/video/3725cdf1-320c-4b38-a078-3c90fc3816b0](https://web.microsoftstream.com/video/3725cdf1-320c-4b38-a078-3c90fc3816b0
+> "segundo Video Aula da unidade 1")<br>
+> Vídeo aula (1_VideoAula-2 18:57): [link
+> alternativo](https://web.microsoftstream.com/video/3725cdf1-320c-4b38-a078-3c90fc3816b0
+> "link alternativo da segunda Video Aula da unidade 1")
+> <br>
 
 ### Ciclo de Vida de um Software​
 - O **desenvolvimento de um software** é realizado em diversas etapas denominadas de ciclo de vida.
@@ -56,7 +67,7 @@
   - Abordagem Estruturada<br> 
 ![Imagem da abordagem estruturada](imgs/img_AbordagemEstruturada​.png "Imagem da abordagem estruturada")
   - Abordagem Orientada a Objetos<br>
-![Imagem da abordagem orietnada a objetos](imgs/img_AbordagemOrientadaObjetos.png "Imagem da abordagem estruturada")
+![Imagem da abordagem orientada a objetos](imgs/img_AbordagemOrientadaObjetos.png "Imagem da abordagem estruturada")
 
 ### Técnicas para Representação de Soluções
 - As principais técnicas para representações de soluções de problemas com base em softwares são:
@@ -65,10 +76,10 @@
 
 ### Algoritmos​
 - Representam as instruções para a solução de um problema com base em um subconjunto de palavras de uma língua (p. ex. língua portuguesa).
-- Também são conhecidos por pseudolinguagem ou pseudocódigo.
+- Também são conhecidos por [pseudolinguagem](https://pt.wikipedia.org/wiki/Pseudocódigo "pseudolinguagem é uma linguagem hipotética,que tem por objetivo ser um instrumento didático para auxiliar na dinâmica ensino-aprendizado. Ela contém os principais elementos encontrados em praticamente todas as linguagens reais de programação de computadores.") ou pseudocódigo.
 - Tem uma estrutura semântica e sintática própria, mas que pode variar nas diferentes bibliografias ou formas de representação
 - **Vantagem**: facilidade de elaboração.​
-- **Desvantagem**: legibilidade e ambigui-dade em problemas não triviais.​
+- **Desvantagem**: legibilidade e ambiguidade em problemas não triviais.​
 ##### Imagem de exemplo de um algoritmo<br>
 ![Imagem de exemplo de um algoritmo](imgs/img_Algoritmo.png "Imagem de exemplo de um algoritmo")
 
@@ -105,7 +116,7 @@
 
 ----------
 
-### Principais Referências Bibliográficas​
+### [Principais Referências Bibliográficas​](#RB)
 - CARBONI, Irenice de Fátima. **[Lógica de programação](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=265888)**. São Paulo : Pioneira Thomson Learning, 2003. 240 p, il.​
 - MANZANO, José Augusto N. G; OLIVEIRA, Jayr Figueiredo de. **[Algoritmos: lógica para desenvolvimento de programação](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=98280)**. São Paulo : Erica, 1996. 265p.​
 - SOUZA, Marco Antônio Furlan de. **[Algoritmos e lógica de programação](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=306850)**. São Paulo : Pioneira Thomson, 2005. xxiii, 214 p, il.
