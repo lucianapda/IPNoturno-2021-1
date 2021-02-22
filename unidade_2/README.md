@@ -1,11 +1,11 @@
 # Introdução à Programação - Unidade 2
 
 ## Construção de Algoritmos
-> Vídeo aula 2_VideoAula-1 (16:19):
-> [https://web.microsoftstream.com/video/b74928f9-3000-4c46-9a1e-42b0aabaa94c](https://web.microsoftstream.com/video/b74928f9-3000-4c46-9a1e-42b0aabaa94c "primeira Video Aula da unidade 2") <br>
-> Vídeo aula 2_VideoAula-1 (16:19):  [link
+> Videoaula 2_VideoAula-1 (16:19):
+> [https://web.microsoftstream.com/video/b74928f9-3000-4c46-9a1e-42b0aabaa94c](https://web.microsoftstream.com/video/b74928f9-3000-4c46-9a1e-42b0aabaa94c "primeira videoaula da unidade 2") <br>
+> Videoaula 2_VideoAula-1 (16:19):  [link
 > alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EVlEcOSNE1dMvrqhbFRgFOgBaMLrJR6iNVAVvAd7kP7G3g?e=ApntHQ
-> "link alternativo da primeira Video Aula da unidade 2") <br>
+> "link alternativo da primeira videoaula da unidade 2") <br>
 
 ### Solução de Problemas
 ![Imagem das etapas: Entrada, Processo e Saída](../unidade_1/imgs/img_EPS.png "Imagem das etapas: Entrada, Processo e Saída")
@@ -65,11 +65,11 @@
 ----------
 
 ## Construção de Algoritmos
-> Vídeo aula 2_VideoAula-2 (22:58):
-> [https://web.microsoftstream.com/video/752f9866-d61a-4839-a13a-0f8ad4b6cfba](https://web.microsoftstream.com/video/752f9866-d61a-4839-a13a-0f8ad4b6cfba "segundo Video Aula da unidade 2") <br>
-> Vídeo aula 2_VideoAula-2 (22:58): [link
+> Videoaula 2_VideoAula-2 (22:58):
+> [https://web.microsoftstream.com/video/752f9866-d61a-4839-a13a-0f8ad4b6cfba](https://web.microsoftstream.com/video/752f9866-d61a-4839-a13a-0f8ad4b6cfba "segunda videoaula da unidade 2") <br>
+> Videoaula 2_VideoAula-2 (22:58): [link
 > alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/ESboEsA6q0ZKkvnYS2z8qqEBGXu569KM_mkMwWHV5hprcA?e=nh4dgI
-> "link alternativo da segunda Video Aula da unidade 2") <br>
+> "link alternativo da segunda videoaula da unidade 2") <br>
 
 ### Descrever a Solução do Problema​
 | Tipo       | Descrição                                     |
