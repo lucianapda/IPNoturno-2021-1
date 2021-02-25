@@ -6,31 +6,25 @@
 - Avisos: os avisos serão feitos todos pelo Teams
 - Apresentação do Professor
   
-        Nome: Dalton Solano dos Reis
-        1988-1992: Graduação na FURB (primeira turma de Computação)
-        1994-1997: Mestrado (M.Sc.) na UFRGS .. Área Gráfica
-        2003-2007: Doutorado (Dr.) na UFRGS .. Área Gráfica
+        Nome: Luciana Pereira de Araújo Kohler
+        2008-2012: Graduação na FURB
+        2012-2014: Mestrado (M.Sc.) na UDESC.. Área Sistemas Colaborativos / Interação Humano Computador
     
 - Leciono atualmente:
 
-        1a fase - Introdução à Programação (matutino/noturno)
-        7a fase - Computação Gráfica
-        8a fase - Realidade Virtual
-        8a fase - Desenvolvimento para Plataformas Móveis 
+        1a fase - Introdução à Programação (noturno)
+        3a fase - Programação Web I (matutino)
+        4a fase - Programação Web II (noturno)
+        5a fase - Testes de Software (concentrado)
+        8a fase - Desenvolvimento de Jogos e Entretenimento Digital
+       
 
 - Linhas pesquisa:
 
         projetos relacionados com as disciplinas
         assuntos relacionados com a área da educação
-        Grupos de Pesquisa: GCG e TecEdu
+        Grupos de Pesquisa: LDTT e Meninas Digitais
         Oportunidade para fazer pesquisa: ser bolsista
-
-- Gostou
-  
-        Curiosidade em como as coisas acontecem
-        Brinquedinhos tecnológicos
-        Novidades que facilitam o nosso dia-a-dia
-        Área Gráfica: desde que comecei a trabalhar aos 14 anos com desenho técnico de projetos arquitetônicos
 
 ------
 ## Plano de Ensino
