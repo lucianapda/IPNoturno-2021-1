@@ -1,0 +1,42 @@
+Era uma vez, uma pessoa que estava na praia. Esta pessoa conhecia um professor e
+este professor tinha um problema para resolver. O seu problema era que ele tinha
+que considerar uma situação que ele poderia ter 3 notas de um aluno e com elas
+poderia calcular a média deste aluno.
+
+1) enrolação
+Era uma vez, uma pessoa que estava na praia. Esta pessoa conhecia um professor e
+este professor tinha um problema para resolver. 
+
+2) as entradas
+"nota 1, nota 2, nota 3" OU "3 notas" (notas do aluno)
+OPCIONAL: nome do aluno
+
+3) as saídas
+média aritmética
+
+4) e definir os processos
+somar as notas e dividir pelo número de notas
+
+(nota 1 + nota 2 + nota 3)/3 = Média aritmética
+
+----------------------------------
+
+Um professor deseja calcular a média de um aluno. O professor tem o nome e as 3
+notas do aluno e a média deve ser calculada de forma aritmética.​
+
+1) enrolação
+Um professor deseja calcular a média de um aluno. 
+
+2) as entradas
+nome
+3 notas
+
+3) as saídas
+média aritmética
+
+4) e definir os processos
+(nota 1 + nota 2 + nota 3)/3 = Média aritmética
+
+--------------
+
+Considerando que um professor tem notas de um aluno, calcule a média do aluno.
