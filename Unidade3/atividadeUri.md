@@ -2,11 +2,11 @@ Olá, agora a atividade desta unidade será utilizar o URI para praticar a inter
 
 Bom, agora vocês devem ter acessar o link
 
-[https://www.urionlinejudge.com.br/judge/en/disciplines/join/7172](https://www.urionlinejudge.com.br/judge/en/disciplines/join/7172)
+[https://www.urionlinejudge.com.br/judge/en/disciplines/join/7173](https://www.urionlinejudge.com.br/judge/en/disciplines/join/7173)
 
-para criar uma conta e se inscreverem na disciplina criada dentro do URI. A disciplina tem o nome: IP_NOT_D [2021-1].
+para criar uma conta e se inscreverem na disciplina criada dentro do URI. A disciplina tem o nome: IP_NOT_L [2021-1].
 
-Assim que acessar a disciplina informe a seguinte chave de acesso (token): Hiwmnit
+Assim que acessar a disciplina informe a seguinte chave de acesso (token): tCvB5cj
 
 Mas ATENÇÃO, usem o e-mail da furb (seuLogin @ furb . br) para criar a conta de vocês, e aonde for pedido para preencher o seu nome coloque o seu nome correto e completo.
 
