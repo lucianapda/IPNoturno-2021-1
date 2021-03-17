@@ -83,26 +83,24 @@ Ler com **muita ATENÇÃO**, e em caso de dúvida me questionem.
 ![Imagem das etapas: Entrada, Processo e Saída](imgs/img_EPS.png "Imagem das etapas: Entrada, Processo e Saída") 
  
 ##### Codificação: linguagem de programação
-- Exemplo, algo parecido com formalismo usado na Matemática (mas melhor 😉 )
-
-  <kbd>
-
+- Exemplo, algo parecido com formalismo usado na Matemática (mas a computação é melhor 😉 )
+<br><kbd>
   ![\Large 3+4=x](https://latex.codecogs.com/svg.latex?\Large&space;3+4=x)<br>
-  ![\Large 4+3=x](https://latex.codecogs.com/svg.latex?\Large&space;4+3=x)<br><br>
+  ![\Large 4+3=x](https://latex.codecogs.com/svg.latex?\Large&space;4+3=x)<br>
+  ![\Large 1+4+3-1=y](https://latex.codecogs.com/svg.latex?\Large&space;1+4+3-1=y)<br>
+</kbd>
 
-  ![\Large 1+4+3-1=y](https://latex.codecogs.com/svg.latex?\Large&space;1+4+3-1=y)<br><br>
-
+<br><kbd>
   ![\Large \Large&space;1+4+3-1+\sqrt{9}+\int_{a}^{b}dx=z](https://latex.codecogs.com/svg.latex?\Large&space;1+4+3-1+\sqrt{9}+\int_{a}^{b}dx=z)<br><br>
-  
   ![\Large \Large&space;1+4+3-1+\sqrt{9}=a](https://latex.codecogs.com/svg.latex?\Large&space;1+4+3-1+\sqrt{9}=a)<br>
   ![\Large \Large&space;a+\int_{a}^{b}dx=z](https://latex.codecogs.com/svg.latex?\Large&space;a+\int_{a}^{b}dx=z)<br>
-  
-  </kbd>
+</kbd>
 
 - Exemplo, na Computação, uma representação gráfica:
   - Fluxograma de uma rotina condicional simples
-  
-<div hidden>
+
+[//]: # (FIXME: deveria esconder o código abaixo <div hidden> ... </div>)  
+<div hidden> 
 
 ```
 @startuml AA_Exemplo_1_Condicional_Simples

@@ -96,3 +96,6 @@ Nomes podem conter letras, números e _. Não podem conter caracteres especiais,
 
 ### Problema 2 (URI_1008):
     Escreva um programa que leia o número do funcionário, o número de horas trabalhadas em um mês e o valor que ele recebeu por hora. Este valor sempre será um valor inteiro. Imprima o número do funcionário e o salário que ele receberá no final do mês.
+- Entendendo o problema
+  
+- fluxograma
