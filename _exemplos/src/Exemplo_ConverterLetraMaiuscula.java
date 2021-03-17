@@ -3,7 +3,7 @@
  * converter a letra para maiúsculo.
  */
 
-public class _Exemplo_ConverterLetraMaiuscula {
+public class Exemplo_ConverterLetraMaiuscula {
 	public static void main(String[] args) {
 		char letra = 'a';
 

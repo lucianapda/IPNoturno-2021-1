@@ -6,7 +6,7 @@
 
 import java.util.Scanner;
 
-public class _Exemplo_LerEscrever {
+public class Exemplo_LerEscrever {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 

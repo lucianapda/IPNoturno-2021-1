@@ -1,7 +1,7 @@
 /**
  * Exemplo de utilização dos principais métodos da Classe Math
  */
-public class _Exemplo_Math {
+public class Exemplo_Math {
 
     // Exibe as constantes da classe Math
     public static void exibirConstantes() {

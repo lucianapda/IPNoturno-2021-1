@@ -3,7 +3,7 @@
  * núnmero tem casas decimais.
  */
 
-public class _Exemplo_TemCasasDecimais {
+public class Exemplo_TemCasasDecimais {
 	public static void main(String[] args) {
 		double numero;
 

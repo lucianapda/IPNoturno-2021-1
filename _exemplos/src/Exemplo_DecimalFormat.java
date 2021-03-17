@@ -7,7 +7,7 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class _Exemplo_DecimalFormat {
+public class Exemplo_DecimalFormat {
 	public static void main(String[] args) {
 		// definindo as máscaras de formatação.
 		DecimalFormat df_2 = new DecimalFormat("0.00");

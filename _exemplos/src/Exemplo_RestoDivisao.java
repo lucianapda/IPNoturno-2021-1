@@ -2,7 +2,7 @@
  * Exemplo de utilização do operador do resto da divisão.
  */
 
-public class _Exemplo_RestoDivisao {
+public class Exemplo_RestoDivisao {
 	public static void main(String[] args) {
 		double resposta;
 		double numerador;
