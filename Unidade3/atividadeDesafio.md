@@ -33,13 +33,13 @@ Utilize o nome do arquivo Java e da Classe de acordo com o indicado no inicio de
   
 ----------
 **Uni3Exe09.java** - Descreva um programa que calcule o volume de uma lata de óleo. Fórmula:<br> <kbd>
-  ![\normalsize&space;volume=\Pi*raio^2*altura](https://latex.codecogs.com/svg.latex?\normalsize&space;volume=\Pi*raio^2*altura)<br>
+  ![\normalsize&space;volume\:=\:\Pi\:*\:raio^2\:*\:altura](https://latex.codecogs.com/svg.latex?\normalsize&space;volume=\Pi*raio^2*altura)<br>
 </kbd>
 
-  
 ----------
+[//]: # FIXME: erro na fórmula no navegador Safari
 **Uni3Exe10.java** - Descreva um programa que leia o comprimento dos catetos de um triângulo retângulo e calcule o comprimento da hipotenusa. Fórmula:<br> <kbd>
-  ![\normalsize&space;hipotenusa^2=cateto1^2+cateto2^2](https://latex.codecogs.com/svg.latex?\normalsize&space;hipotenusa^2=cateto1^2+cateto2^2)<br>
+  ![\normalsize&space;hipotenusa^2\:=\:cateto1^2\:+\:cateto2^2](https://latex.codecogs.com/svg.latex?\normalsize&space;hipotenusa^2=cateto1^2+cateto2^2)<br>
 </kbd>
   
 ----------
