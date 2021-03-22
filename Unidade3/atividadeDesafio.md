@@ -37,9 +37,15 @@ Utilize o nome do arquivo Java e da Classe de acordo com o indicado no inicio de
 </kbd>
 
 ----------
-[//]: # FIXME: erro na fórmula no navegador Safari
+<!--- [//]: # FIXME: erro na fórmula no navegador Safari --->
 **Uni3Exe10.java** - Descreva um programa que leia o comprimento dos catetos de um triângulo retângulo e calcule o comprimento da hipotenusa. Fórmula:<br> <kbd>
+
+[!Equação da hipotenusa](imgs/img_Hipotenusa.png "Equação da hipotenusa")
+
+<!--- 
   ![\normalsize&space;hipotenusa^2\:=\:cateto1^2\:+\:cateto2^2](https://latex.codecogs.com/svg.latex?\normalsize&space;hipotenusa^2=cateto1^2+cateto2^2)<br>
+--->
+
 </kbd>
   
 ----------
