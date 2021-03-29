@@ -1,4 +1,4 @@
-/**
+/*
  * Exemplo de utilização dos principais métodos da Classe Math
  */
 public class Exemplo_Math {

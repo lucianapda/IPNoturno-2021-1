@@ -1,5 +1,4 @@
-
-/**
+/*
  * Exemplo de utilização da classe DecimalFormat para 
  * formatar as saídas com casas decimais.
  */

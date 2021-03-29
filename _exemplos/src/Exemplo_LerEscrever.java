@@ -1,5 +1,4 @@
-
-/**
+/*
  * Exemplo de utilização da Classe Scanner para leitura e 
  * System para escrita no console.
  */

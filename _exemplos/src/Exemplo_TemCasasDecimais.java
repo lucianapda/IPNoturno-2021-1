@@ -1,4 +1,4 @@
-/**
+/*
  * Exemplo de utilização da classe Math com método floor para verificar se um
  * núnmero tem casas decimais.
  */

@@ -1,4 +1,4 @@
-/**
+/*
  * Exemplo de utilização do operador do resto da divisão.
  */
 

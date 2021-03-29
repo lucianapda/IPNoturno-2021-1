@@ -1,4 +1,4 @@
-/**
+/*
  * Exemplo de utilização da classe Character com método toUpperCase para
  * converter a letra para maiúsculo.
  */
