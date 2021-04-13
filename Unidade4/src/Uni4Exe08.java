@@ -15,7 +15,7 @@ public class Uni4Exe08 {
                                                               //em letra maiúscula.
         char letra = entrada.charAt(0); //peguei a primeira letra da entrada
 
-        //Primeira resolução: 
+        //Primeira resolução: IF-ELSE 
         if (letra == 'A') {
             System.out.println("É vogal");
         } else {
@@ -38,11 +38,22 @@ public class Uni4Exe08 {
             }
         }
 
-        //Segunda resolução:
+        //Segunda resolução: IF COMPOSTO
         if (letra == 'A' || letra == 'E' || letra == 'I' || letra == 'O' || letra == 'U') {
             System.out.println("É vogal");
         } else {
             System.out.println("Não é vogal");
+        }
+
+        //ESCOLHA:
+        switch(letra) {
+            case 'A': 
+            case 'E':
+            case 'I':
+            case 'O':
+            case 'U': System.out.println("Switch: É vogal");
+                break;
+            default: System.out.println("Não é vogal");
         }
 
         teclado.close();
