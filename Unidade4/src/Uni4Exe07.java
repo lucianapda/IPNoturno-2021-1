@@ -1,4 +1,3 @@
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Uni4Exe07 {
@@ -11,33 +10,8 @@ public class Uni4Exe07 {
          */
 
         Scanner leitor = new Scanner(System.in);
-        System.out.print("Digite uma palavra: ");
-        String p = leitor.next();
-
-        String p2 = "Luciana";
-        if (p.equalsIgnoreCase(p2)) {
-            System.out.println("Correto");
-        } else {
-            System.out.println("Incorreto");
-        }
-        
-        
-        
-        
-        /*System.out.println("Informe o peso da carta (g): ");
-        
-        float numero = leitor.nextFloat();
-
-        DecimalFormat df = new DecimalFormat("0.00");
-        String numeroS = df.format(numero);
-        System.out.println(numeroS);
-
-        float num2 = 4.90f;
-
-        //float soma = Float.parseFloat(numeroS);// + num2;
-       //System.out.println(soma);
-
-        /*int peso = leitor.nextInt(); //90g  | 100g
+        System.out.println("Informe o peso da carta (g): ");
+        int peso = leitor.nextInt(); //90g  | 100g
         float preco = 0f;
         if (peso <= 50) {
             preco = 0.45f;
@@ -54,7 +28,6 @@ public class Uni4Exe07 {
         }
         
         System.out.println("Preço a pagar R$" + preco);
-        */
         leitor.close();
     }
 
