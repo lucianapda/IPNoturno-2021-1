@@ -28,7 +28,7 @@ Considere os 20 primeiros termos da série.
 ----------
 **Uni5Exe05.java** - Descreva um algoritmo que escreva os **n** primeiros termos da seguinte sequência de números:<br>
 <kbd>
-  ![\normalsize&space;\frac{1}{1}+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\cdots+\frac{1}{100](https://latex.codecogs.com/svg.latex?\normalsize&space;8,10,16,18,32,64,\cdots)<br>
+  ![\normalsize&space;\frac{1}{1}+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}+\cdots+\frac{1}{100](https://latex.codecogs.com/svg.latex?\normalsize&space;8,10,16,18,32,34,64,\cdots)<br>
 </kbd>
 
 O valor **n** deve ser lido e deve ser maior do que 2. 
