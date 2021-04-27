@@ -1,0 +1,15 @@
+Condição --- if
+
+Laços / Laços condicionais / Laços de repetição
+
+iteração <> interação
+
+loop / looping 
+
+for (inicialização ; teste ; atualização) {
+    //loop
+}
+
+sequências, padrões, séries...
+
+1 3 5 7 9 ...
