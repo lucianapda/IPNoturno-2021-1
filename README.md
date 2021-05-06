@@ -86,6 +86,17 @@ World" em Java. Para fazer este teste existe várias formas, uma delas é:
   [https://code.visualstudio.com/docs/java/java-tutorial](https://code.visualstudio.com/docs/java/java-tutorial
   "Uso do Java no VSCode")
 
+## VSCode - passos iniciais
+Para quem quiser aprender um pouco mais sobre a IDE VSCode segue alguns links:
+- [Lista Geral](https://code.visualstudio.com/docs/getstarted/introvideos)
+- [Começando](https://code.visualstudio.com/docs/introvideos/basics)
+- [Edição de Código](https://code.visualstudio.com/docs/introvideos/codeediting)
+- [Personalizar](https://code.visualstudio.com/docs/introvideos/configure)
+- [Extensões](https://code.visualstudio.com/docs/introvideos/extend)
+- [Depurando](https://code.visualstudio.com/docs/introvideos/debugging)
+- [Controle de Versão](https://code.visualstudio.com/docs/introvideos/versioncontrol)
+- [Customizar](https://code.visualstudio.com/docs/introvideos/customize)
+
 ## MS Live Share - Planned Session
 Um opcional que se tem dentro do VSCode é instalar a extensão do "Live Share".
 Está extensão permite criar sessões online para compartilhamento de tela. Mas
