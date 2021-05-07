@@ -2,7 +2,7 @@
 
 ## Tipos Estruturados
 Videoaula 6_VideoAula (30:10): [https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EX_iq35CPStNi5sUo4-50lMBGlb13PLZwWYRJvCjZjciMg?e=SeiiIB](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EX_iq35CPStNi5sUo4-50lMBGlb13PLZwWYRJvCjZjciMg?e=SeiiIB "videoaula da unidade 6")<br>
-Videoaula 6_VideoAula (30:10): [link alternativo](https://web.microsoftstream.com/video/0992a7d7-bdf2-4deb-b78f-b9ae3e3e8eec "link alternativo da videoaula da unidade 6") <br>
+Videoaula 6_VideoAula (30:10): [link alternativo](https://web.microsoftstream.com/video/10f00915-0db7-45de-9c7b-c2c0dbe590fd "link alternativo da videoaula da unidade 6") <br>
 
 ### Tipo Estruturados
 - Os problemas computacionais muitas vezes exigem o armazenamento de grande quantidade de dados em memória para posterior processamento.​
