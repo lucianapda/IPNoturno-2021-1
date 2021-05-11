@@ -1,0 +1,89 @@
+# Lista de Exercícios - Unidade 6 - Tipos Estruturados Unidimensionais
+
+Implemente  uma  classe  com  o  método  main  para  cada  um  dos seguintes  exercícios utilizando o VSCode. Faça a análise do problema identificando as entradas, saídas e testes. Utilize  somente  os  comandos  que  você  aprendeu  na  disciplina  até  o  momento  para  a resolução das atividades.
+
+Utilize o nome do arquivo Java e da Classe de acordo com o indicado no inicio de cada enunciado.
+
+E agora podemos usar métodos para resolver os exercícios abaixo.
+
+----------
+
+## Vetores de Tamanho Fixo
+
+----------
+
+**Uni6Exe01.java** - Descreva um algoritmo que leia 10 números inteiros e os coloque em um vetor de 10 posições do tipo inteiro. Escreva na ordem inversa em que foram lidos. Faça um método para ler e outro para escrever.
+
+----------
+**Uni6Exe02.java** - Descreva um algoritmo que leia 12 valores reais e os coloque em um vetor de 12 posições do tipo real. Imprima quais valores desses informados são maiores que a média dos valores. Faça um método para ler os valores, outro para calcular a média e outro para informar os valores maiores que a média.
+
+----------
+**Uni6Exe03.java** - Descreva um algoritmo que leia 12 valores reais e os coloque em um vetor de 12 posições do tipo real. Em seguida, modifique o vetor de modo que os valores das posições ímpares sejam aumentados em 5% e os das posições pares sejam aumentados em 2%. Imprima o vetor resultante. Faça um método para ler os valores, outro para ajustar os valores dentro do vetor e outro para escrever os valores atualizados do vetor.
+
+----------
+**Uni6Exe04.java** - Faça um programa para ler dois vetores de inteiros, cada um contendo 10 elementos. Crie um terceiro vetor onde cada vetor é a soma dos valores contidos nas posições respectivas dos vetores originais. Exiba, ao final, os três vetores na tela. Faça três métodos: um método para ler os vetores, outro para somar e outro para escrever os vetores.
+
+----------
+**Uni6Exe05.java** - Com o objetivo de determinar o índice de afinidade entre um rapaz e uma moça cada um respondeu um questionário com 5 perguntas, como por exemplo:
+
+- Gosta de música sertaneja?
+- Gosta de futebol?
+- Gosta de seriados?
+- Gosta de redes sociais?
+- Gosta da Oktoberfest?
+
+A resposta a cada pergunta pode ser: SIM, NÃO ou IND (indiferente). O índice de afinidade é medido da seguinte maneira:
+
+- se ambos deram a mesma resposta soma-se 3 pontos ao índice;
+- se um respondeu IND e o outro SIM ou NÃO soma-se 1;
+- se um respondeu SIM e o outro NÃO soma-se -2 ao índice.
+
+Crie  um  vetor  para  armazenar  as  respostas  do  rapaz  e  outro  para  armazenar  as respostas da moça. Crie um método para ler as respostas e outro para calcular e retornar  a  afinidade.  Por  fim, escreva  a  afinidade  considerando  os  seguintes intervalos:
+
+| Afinidade | Mensagem                          |
+|-----------|-----------------------------------|
+| 15        | “Casem!                           |
+| 10 a 14   | “Vocês têm muita coisa em comum!” |
+| 5 a 9     | “Talvez não dê certo :(”          |
+| 0 a 4     | “Vale um encontro.”               |
+| -1 a -9   | “Melhor não perder tempo”         |
+| -10       | “Vocês se odeiam!”                |
+
+----------
+
+## Vetores com N elementos
+
+----------
+**Uni6Exe06.java** - Faça um programa que leia N valores reais. Em seguida, dado um determinado valor, informe  se  o  mesmo foi  cadastrado no  vetor.Faça  um  método  para  ler  o  vetor e outro, que retorne verdadeiro ou falso, para encontrar o valor.
+
+----------
+**Uni6Exe07.java** - Considere um vetor de N elementos inteiros positivos e em ordem crescente. Faça um  programa  que  insira  novos  valores  no  vetor  de  maneira  que  ele  continue ordenado. O novo valor só deve ser inserido caso não exista no vetor. O vetor não pode ultrapassar 20 posições. Crie um método para ler o vetor, outro para inserir e outro para informar o vetor resultante.
+
+----------
+**Uni6Exe08.java** - Seja  um  vetor  de  N valores reais,  limitado  a  20  elementos.  Imprima  uma tabela contendo cada valor diferente e o número de vezes que o valor aparece no vetor (veja exemplo a seguir).
+![Uni6Exe08](./imgs/Uni6Exe08.png)
+
+----------
+**Uni6Exe09.java** - Um cinema pretende fazer uma pesquisa para avaliar o grau de satisfação de seus clientes. Trinta deles foram ouvidos e para cada um perguntou-se o sexo (1=feminino 2=masculino), uma nota para o cinema (zero até dez) e a idade.
+
+Baseado nisto faça um programa que informe:
+
+- qual a nota média recebida pelo cinema;
+- qual a nota média atribuída pelos homens;
+- qual a nota atribuída pela mulher mais jovem;
+- quantas das mulheres com mais de 50 anos deram nota superior a média.
+
+----------
+**Uni6Exe10.java** - Dado um vetor de números inteiros, com capacidade limitada a 50 elementos, faça um programa que construa um menu com as seguintes opções:
+
+- “1 – Incluir valor”: nesta opção inclua o valor no fim do vetor, se houver espaço. Informe o usuário se o valor foi incluído no vetor ou não;
+- “2 – Pesquisar valor”: nesta opção leia um valor e informe se o mesmo está no vetor;
+- “3 – Alterar valor”: nesta opção informe um número a ser alterado e um novo número a ser colocado no lugar (só para a primeira ocorrência deste número). Caso o número a ser alterado exista no vetor, substitua-o pelo novo número. Caso contrário, informe “número não encontrado”;
+- “4 – Excluir valor”: nesta opção leia um valor e, caso ele esteja no vetor, exclua-o. Informe o usuário se o valor foi excluído do vetor ou não. A posição que foi excluída o valor deve ser preenchida pelo valor seguinte, sucessivamente até o final dos valores do vetor;
+- “5 – Mostrar valores”: nesta opção mostre todos os valores armazenados no vetor;
+- “6 – Ordenar valores”: ordene todos os valores do vetor em ordem crescente;
+- “7 – Sair do sistema”: nesta opção deve ser finalizada a execução do programa.
+
+Faça um método para cada uma das opções do menu.
+
+----------
