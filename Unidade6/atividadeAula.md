@@ -21,7 +21,7 @@ E agora podemos usar métodos para resolver os exercícios abaixo.
 **Uni6Exe03.java** - Descreva um algoritmo que leia 12 valores reais e os coloque em um vetor de 12 posições do tipo real. Em seguida, modifique o vetor de modo que os valores das posições ímpares sejam aumentados em 5% e os das posições pares sejam aumentados em 2%. Imprima o vetor resultante. Faça um método para ler os valores, outro para ajustar os valores dentro do vetor e outro para escrever os valores atualizados do vetor.
 
 ----------
-**Uni6Exe04.java** - Faça um programa para ler dois vetores de inteiros, cada um contendo 10 elementos. Crie um terceiro vetor onde cada vetor é a soma dos valores contidos nas posições respectivas dos vetores originais. Exiba, ao final, os três vetores na tela. Faça três métodos: um método para ler os vetores, outro para somar e outro para escrever os vetores.
+**Uni6Exe04.java** - Faça um programa para ler os valores de dois vetores de inteiros, cada um contendo 10 elementos. Crie um terceiro vetor em que cada elemento é a soma dos valores contidos nas posições respectivas dos vetores originais. Por exemplo, vetor1 = [1,2,3] vetor2 = [1,5,6] vetor3 = [2,7,9]. Exiba, ao final, os três vetores na tela. Faça três métodos: um método para ler valores dos vetores, outro para somar e outro para escrever os vetores.
 
 ----------
 **Uni6Exe05.java** - Com o objetivo de determinar o índice de afinidade entre um rapaz e uma moça cada um respondeu um questionário com 5 perguntas, como por exemplo:
@@ -36,7 +36,7 @@ A resposta a cada pergunta pode ser: SIM, NÃO ou IND (indiferente). O índice d
 
 - se ambos deram a mesma resposta soma-se 3 pontos ao índice;
 - se um respondeu IND e o outro SIM ou NÃO soma-se 1;
-- se um respondeu SIM e o outro NÃO soma-se -2 ao índice.
+- se um respondeu SIM e o outro NÃO subtrai-se 2 ao índice.
 
 Crie  um  vetor  para  armazenar  as  respostas  do  rapaz  e  outro  para  armazenar  as respostas da moça. Crie um método para ler as respostas e outro para calcular e retornar  a  afinidade.  Por  fim, escreva  a  afinidade  considerando  os  seguintes intervalos:
 
@@ -54,7 +54,7 @@ Crie  um  vetor  para  armazenar  as  respostas  do  rapaz  e  outro  para  arma
 ## Vetores com N elementos
 
 ----------
-**Uni6Exe06.java** - Faça um programa que leia N valores reais. Em seguida, dado um determinado valor, informe  se  o  mesmo foi  cadastrado no  vetor.Faça  um  método  para  ler  o  vetor e outro, que retorne verdadeiro ou falso, para encontrar o valor.
+**Uni6Exe06.java** - Faça um programa que leia N valores reais. Em seguida, dado um determinado valor, informe  se  o  mesmo foi  cadastrado no vetor. Faça  um  método  para  ler  o  vetor e outro, que retorne verdadeiro ou falso, para encontrar o valor.
 
 ----------
 **Uni6Exe07.java** - Considere um vetor de N elementos inteiros positivos e em ordem crescente. Faça um  programa  que  insira  novos  valores  no  vetor  de  maneira  que  ele  continue ordenado. O novo valor só deve ser inserido caso não exista no vetor. O vetor não pode ultrapassar 20 posições. Crie um método para ler o vetor, outro para inserir e outro para informar o vetor resultante.
