@@ -54,13 +54,19 @@ Crie  um  vetor  para  armazenar  as  respostas  do  rapaz  e  outro  para  arma
 ## Vetores com N elementos
 
 ----------
-**Uni6Exe06.java** - Faça um programa que leia N valores reais. Em seguida, dado um determinado valor, informe  se  o  mesmo foi  cadastrado no vetor. Faça  um  método  para  ler  o  vetor e outro, que retorne verdadeiro ou falso, para encontrar o valor.
+**Uni6Exe06.java** - Faça um programa que leia um valor N inteiro. Com base neste valor, crie um vetor do tipo real. Em seguida, solicite ao usuário informar essa quantidade N de valores reais para popular o vetor. Após ter o vetor preenchido, solicite que o usuário informe um outro valor real. Informe para o usuário se este valor informado se encontra cadastrado no vetor. Faça  um  método  para  ler  o  vetor e outro, que retorne verdadeiro ou falso, para encontrar o valor.
 
 ----------
-**Uni6Exe07.java** - Considere um vetor de N elementos inteiros positivos e em ordem crescente. Faça um  programa  que  insira  novos  valores  no  vetor  de  maneira  que  ele  continue ordenado. O novo valor só deve ser inserido caso não exista no vetor. O vetor não pode ultrapassar 20 posições. Crie um método para ler o vetor, outro para inserir e outro para informar o vetor resultante.
+**Uni6Exe07.java** - Faça um programa que leia um valor N inteiro limitado a 20 posições. Com base neste valor, crie um vetor do tipo inteiro. Em seguida, solicite ao usuário para digitar um número inteiro. Esse número deverá ser armazenado no vetor caso ainda não exista ainda. Isto é, se o usuário informar o número 2 e já existir o número 2 em alguma posição do vetor, o número não deve ser adicionado. Ao adicionar o número dentro do vetor, o mesmo deve ser adicionado em ordem crescente. Para isso reordene os elementos internos do vetor de modo que este fique sempre crescente, conforme no exemplo:
+
+Vetor origem: [2][5][][]
+Valor informado: 4
+Vetor atualizado: [2][4][5]
+
+Crie um método para criar o vetor, outro para inserir e outro para informar o vetor resultante.
 
 ----------
-**Uni6Exe08.java** - Seja  um  vetor  de  N valores reais,  limitado  a  20  elementos.  Imprima  uma tabela contendo cada valor diferente e o número de vezes que o valor aparece no vetor (veja exemplo a seguir).
+**Uni6Exe08.java** - Faça um programa que leia um valor N inteiro limitado a 20 posições. Com base neste valor, crie um vetor do tipo real. Faça o usuário informar valores para as posições deste vetor e coloque-as nas posições na sequência informada pelo usuário. Imprima  uma tabela contendo cada valor diferente e o número de vezes que o valor aparece no vetor (veja exemplo a seguir).
 ![Uni6Exe08](./imgs/Uni6Exe08.png)
 
 ----------
@@ -73,6 +79,8 @@ Baseado nisto faça um programa que informe:
 - qual a nota atribuída pela mulher mais jovem;
 - quantas das mulheres com mais de 50 anos deram nota superior a média.
 
+Utilize os conceitos aprendidos sobre vetores e métodos para a resolução deste exercício.
+
 ----------
 **Uni6Exe10.java** - Dado um vetor de números inteiros, com capacidade limitada a 50 elementos, faça um programa que construa um menu com as seguintes opções:
 
@@ -84,6 +92,6 @@ Baseado nisto faça um programa que informe:
 - “6 – Ordenar valores”: ordene todos os valores do vetor em ordem crescente;
 - “7 – Sair do sistema”: nesta opção deve ser finalizada a execução do programa.
 
-Faça um método para cada uma das opções do menu.
+Faça um método para cada uma das opções do menu. O menu deve-se repetir até que o usuário escolha a opção 7.
 
 ----------
