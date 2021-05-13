@@ -60,7 +60,9 @@ Crie  um  vetor  para  armazenar  as  respostas  do  rapaz  e  outro  para  arma
 **Uni6Exe07.java** - Faça um programa que leia um valor N inteiro limitado a 20 posições. Com base neste valor, crie um vetor do tipo inteiro. Em seguida, solicite ao usuário para digitar um número inteiro. Esse número deverá ser armazenado no vetor caso ainda não exista ainda. Isto é, se o usuário informar o número 2 e já existir o número 2 em alguma posição do vetor, o número não deve ser adicionado. Ao adicionar o número dentro do vetor, o mesmo deve ser adicionado em ordem crescente. Para isso reordene os elementos internos do vetor de modo que este fique sempre crescente, conforme no exemplo:
 
 Vetor origem: [2][5][][]
+
 Valor informado: 4
+
 Vetor atualizado: [2][4][5]
 
 Crie um método para criar o vetor, outro para inserir e outro para informar o vetor resultante.
