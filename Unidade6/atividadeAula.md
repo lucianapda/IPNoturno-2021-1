@@ -54,7 +54,7 @@ Crie  um  vetor  para  armazenar  as  respostas  do  rapaz  e  outro  para  arma
 ## Vetores com N elementos
 
 ----------
-**Uni6Exe06.java** - Faça um programa que leia um valor N inteiro. Com base neste valor, crie um vetor do tipo real. Em seguida, solicite ao usuário informar essa quantidade N de valores reais para popular o vetor. Após ter o vetor preenchido, solicite que o usuário informe um outro valor real. Informe para o usuário se este valor informado se encontra cadastrado no vetor. Faça  um  método  para  ler  o  vetor e outro, que retorne verdadeiro ou falso, para encontrar o valor.
+**Uni6Exe06.java** - Faça um programa que leia um valor N inteiro. Com base neste valor, crie um vetor do tipo real. Em seguida, solicite ao usuário informar essa quantidade N de valores reais para popular o vetor. Após ter preenchido o vetor, solicite que o usuário informe um outro valor real. Informe para o usuário se este valor informado se encontra cadastrado no vetor. Faça  um  método  para  ler  o  vetor e outro, que retorne verdadeiro ou falso, para encontrar o valor.
 
 ----------
 **Uni6Exe07.java** - Faça um programa que leia um valor N inteiro limitado a 20 posições. Com base neste valor, crie um vetor do tipo inteiro. Em seguida, solicite ao usuário para digitar um número inteiro várias vezes, até preencher o vetor. Esse número deverá ser armazenado no vetor caso ainda não exista, e se o valor já existir deve ser pedido um novo valor. Isto é, se o usuário informar o número 2 e já existir o número 2 em alguma posição do vetor, o número não deve ser adicionado. Após ter adicionado todos os números dentro do vetor, o mesmo deve ser ordenado. Para isso reordene os elementos internos do vetor de modo que este fique em ordem crescente, conforme no exemplo:
@@ -62,7 +62,8 @@ Crie  um  vetor  para  armazenar  as  respostas  do  rapaz  e  outro  para  arma
 Vetor origem: [0][4][2][6][3]  
 Vetor ordenado: [0][2][3][4][6]
 
-Crie um método para inserir os valores no vetor e outro para informar o vetor resultante.
+Crie um método para inserir os valores no vetor, outro para ordenar o vetor e outro para informar o vetor resultante. Para "método ordenar" se pode usar o "método bolha" explicado neste [vídeo](<https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/Ec87A5jXv7VIkfpLSUyvbuYBrPSf3pXBO4lIWOj3TTMH1A?e=mugb45>).
+
 
 ----------
 **Uni6Exe08.java** - Faça um programa que leia um valor N inteiro limitado a 20 posições. Com base neste valor, crie um vetor do tipo real. Faça o usuário informar valores para as posições deste vetor e coloque-as nas posições na sequência informada pelo usuário. Imprima  uma tabela contendo cada valor diferente e o número de vezes que o valor aparece no vetor (veja exemplo a seguir).
@@ -76,7 +77,7 @@ Baseado nisto faça um programa que informe:
 - qual a nota média recebida pelo cinema;
 - qual a nota média atribuída pelos homens;
 - qual a nota atribuída pela mulher mais jovem;
-- quantas das mulheres com mais de 50 anos deram nota superior a média.
+- quantas das mulheres com mais de 50 anos deram nota superior a média recebida pelo cinema.
 
 Utilize os conceitos aprendidos sobre vetores (ou mesmo o uso de matriz) e métodos para a resolução deste exercício.
 
@@ -91,6 +92,7 @@ Utilize os conceitos aprendidos sobre vetores (ou mesmo o uso de matriz) e méto
 - “6 – Ordenar valores”: ordene todos os valores do vetor em ordem crescente;
 - “7 – Sair do sistema”: nesta opção deve ser finalizada a execução do programa.
 
-Faça um método para cada uma das opções do menu. O menu deve-se repetir até que o usuário escolha a opção 7.
+Faça um método para cada uma das opções do menu. O menu deve-se repetir até que o usuário escolha a opção 7.  
+Para a opção "6 - Ordenar valores" se pode usar o "método bolha" explicado neste [vídeo](<https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/Ec87A5jXv7VIkfpLSUyvbuYBrPSf3pXBO4lIWOj3TTMH1A?e=mugb45>).
 
 ----------
