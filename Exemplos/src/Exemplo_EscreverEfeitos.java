@@ -11,6 +11,11 @@ public class Exemplo_EscreverEfeitos {
     System.out.println();
     System.out.println("Exemplo de texto " + "\033[3m" + "\u001b[1;31m" + "vermelho/itálico" + "\u001b[0m" + ", e texto sem nada.");
     System.out.println();
-
+    
+    System.out.println("Exemplo de texto " + "\u00AC");
+    System.out.println("Exemplo de texto " + "\u00AF");
+    System.out.println("Exemplo de texto " + "\u00B2");
+    System.out.println("Exemplo de texto " + "\u00B3");
+    System.out.println("Exemplo de texto " + "\u00BA");
   }
 }

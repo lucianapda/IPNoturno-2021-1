@@ -1,15 +1,11 @@
 # Introdução à Programação - Unidade 4
 
-## Comandos de Controle de Fluxo: Seleção - SE
-> Videoaula 4_VideoAula (34:10):
-> [https://web.microsoftstream.com/video/d231427e-2ea3-4b8c-aa03-746497d45f9a](https://web.microsoftstream.com/video/d231427e-2ea3-4b8c-aa03-746497d45f9a
-> "videoaula da unidade 4")<br>
-> Videoaula 4_VideoAula (34:10): [link
-> alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EUiFijgkOtVDsYNwu2NBgJcBGQbhFgn2m6m7nmvrINb3Bw?e=x4aFKe
-> "link alternativo da videoaula da unidade 4")
-> <br>
+## Comandos de Controle de Fluxo: Seleção
 
-### Comandos de Controle de Fluxo​
+Videoaula_4 (34:10): [<https://web.microsoftstream.com/video/d231427e-2ea3-4b8c-aa03-746497d45f9a>](https://web.microsoftstream.com/video/d231427e-2ea3-4b8c-aa03-746497d45f9a "videoaula da unidade 4")  
+Videoaula_4 (34:10): [link alternativo](<https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EUiFijgkOtVDsYNwu2NBgJcBnhp13gFvPzOwftgwh_4R9A?e=9djRWd> "link alternativo da videoaula da unidade 4")
+
+### Comandos de Controle de Fluxo​: Seleção
 - Os comandos de controle de fluxo são utilizados para definir a sequência de passos a ser executada por um programa, de acordo com o estado de suas variáveis.
 - Tipos de Comandos:​
   - de **seleção**: executam instruções de acordo com uma determinada condição​;

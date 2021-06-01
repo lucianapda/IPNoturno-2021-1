@@ -1,4 +1,5 @@
 # Disciplina de Introdução à Programação
+
 Olá, seja bem vindo ..
 
 Este é o material principal da disciplina de Introdução à Programação. O
@@ -21,63 +22,83 @@ um dos sistemas operacionais: Windows, Linux ou MacOS. O material teórico
 (smartphones ou tablets), mas a parte prática exige um equipamento desktop.
 
 ## Ambiente de Desenvolvimento Prático
+
 Para o desenvolvimento da parte prática precisamos de uma **Linguagem de
 Programação** e uma **IDE** (Integrated Development Environment ou Ambiente de
 Desenvolvimento Integrado).
 
 ### Instalando a Linguagem de Programação - Java
-Para instalar o Java acesse o link<br>
+
+Para instalar o Java acesse o link
+
 [https://adoptopenjdk.net/](https://adoptopenjdk.net/ "Para instalar o Java").
 
 Selecionar OpenJDK 11 (LTS) e HotSpot. Clique no Último Lançamento, e assim irá
 baixar um arquivo .msi. Depois dê dois clicks no arquivo, … e alguns next … mas
-ATENÇÃO … se aparecer uma janela deste tipo<br>
+ATENÇÃO … se aparecer uma janela deste tipo
 
 ![Path do Java](imgs/img_OpenJDKpath.png "Path do Java")
 
 selecione a opção em vermelho. Assim a variável do sistema JAVA_HOME fica
 definida para está instalação do Java.
-… e depois, next, ..., finish. 
+… e depois, next, ..., finish.
 
 ### Instalando a IDE - VSCode
+
 A IDE a ser utilizada será o Microsoft Visual Studio Code (VSCode). Além do
 VSCode também será necessário instalar algumas **Extensions** (extensões) para
 trabalhar com a linguagem de programação definida (no caso o Java).
 
 #### Instalando o VSCode
-Para instalar o VSCode acesse o link<br> 
+
+Para instalar o VSCode acesse o link
+
 [https://code.visualstudio.com/](https://code.visualstudio.com/ "Para instalar o
 VSCode").
- 
+
 Selecione Versão para Windows – Stable Build.
 Dois clicks no arquivo, e next, ..., next, finish.
 
 #### Instalando as Extensions
+
 A instalação das extensões é feita direto dentro do VSCode. Para isto, abra o
 VSCode, é vá para barra lateral “Extensions”. No campo de texto que aparecer
 digite: java, e na primeira ocorrência de “Java Extension Pack” clicar em
-install.<br>
-**Importante**: feche e abra o VSCode para efetivar as instalações das extensões. 
+install.
+
+Caso queira listar quais extensões está usando pode usar os comando em:  
+Unix:  
+> code --list-extensions | xargs -L 1 echo code --install-extension
+
+Windows (PowerShell, e. g. using Visual Studio Code's integrated Terminal):  
+> code --list-extensions | % { "code --install-extension $_" }
+
+**Importante**: feche e abra o VSCode para efetivar as instalações das extensões.
 
 ### Testando o Ambiente de Desenvolvimento
+
 Uma maneira prática de testar o ambiente que iremos usar é criando um "Hello
-World" em Java. Para fazer este teste existe várias formas, uma delas é: 
-- No VSCode no menu "View / Command Palette …" digite/selecione "Java:  Create Java Project …".<br>
+World" em Java. Para fazer este teste existe várias formas, uma delas é:
+
+- No VSCode no menu "View / Command Palette …" digite/selecione "Java:  Create Java Project …".
+  
   ![View / Command Palette](imgs/img_VSCodeViewProjetoJava.png "View / Command
   Palette")
 
 - Selecione "No build tools" … espere um pouco … e quando aparecer a janela
   escolha um "local" para salvar o seu projeto. Após selecionar o "local" entre
   com um nome para seu projeto, e pressione "enter" para confirmar. O seu
-  projeto deve ter sido criado, e aparecer algo deste tipo:<br>
+  projeto deve ter sido criado, e aparecer algo deste tipo:<
 ![Exemplo de projeto](imgs/img_VSCodeExemploProjeto.png "Exemplo de projeto")
 
-- Agora selecione na janela esquerda do VSCode a pasta "src", e depois o arquivo "App.java". As vezes além de abrir a janela para mostrar o arquivo "App.java" também abre a janela "Java Overview" .. por enquanto podes fechar a janela "Java Overview".<br>
+- Agora selecione na janela esquerda do VSCode a pasta "src", e depois o arquivo "App.java". As vezes além de abrir a janela para mostrar o arquivo "App.java" também abre a janela "Java Overview" .. por enquanto podes fechar a janela "Java Overview".
+  
 ![Executando um código em Java](imgs/img_VSCodeJavaRun.png "Executando um código em Java")
 
 - Agora clique em "Run" que aparece no texto da janela "App.java" entre as
   linhas 1 e 2. Assim deve aparecer uma nova janela abaixo da janela do texto do
-  "App.java" com algumas linhas de texto .. é a janela do "TERMINAL". Nesta janela (do TERMINAL) deve aparecer o texto "Hello, World!".<br>
+  "App.java" com algumas linhas de texto .. é a janela do "TERMINAL". Nesta janela (do TERMINAL) deve aparecer o texto "Hello, World!".
+
 ![Execução no Terminal](imgs/img_VSCodeJavaTerminal.png "Execução no Terminal")
 
 - este texto é a mensagem que foi definida no programa "App.java" para ser escrito para o usuário … e … meus parabéns, já tens o PRIMEIRO programa em Java 😉.
@@ -87,7 +108,9 @@ World" em Java. Para fazer este teste existe várias formas, uma delas é:
   "Uso do Java no VSCode")
 
 ## VSCode - passos iniciais
+
 Para quem quiser aprender um pouco mais sobre a IDE VSCode segue alguns links:
+
 - [Lista Geral](https://code.visualstudio.com/docs/getstarted/introvideos)
 - [Começando](https://code.visualstudio.com/docs/introvideos/basics)
 - [Edição de Código](https://code.visualstudio.com/docs/introvideos/codeediting)
@@ -98,33 +121,42 @@ Para quem quiser aprender um pouco mais sobre a IDE VSCode segue alguns links:
 - [Customizar](https://code.visualstudio.com/docs/introvideos/customize)
 
 ## MS Live Share - Planned Session
+
 Um opcional que se tem dentro do VSCode é instalar a extensão do "Live Share".
 Está extensão permite criar sessões online para compartilhamento de tela. Mas
 não é um simples compartilhamento de tela, mas também permite que se compartilhe
 alguns (os principais) recursos que o editor de código do VSCode disponibiliza.
 Para mais informações:
-- sobre o Live Share acesse<br>
+
+- sobre o Live Share acesse
+
   [https://docs.microsoft.com/pt-br/visualstudio/liveshare/](https://docs.microsoft.com/pt-br/visualstudio/liveshare/
   "Sobre o Live Share")
 
-- para usar o Live Share no VSCode (Extension)<br>
+- para usar o Live Share no VSCode (Extension)
+  
   [https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack
   "Instalar o Live Share")
 
 ## GIT (Controlador de Versão)
+
 E outro opcional é instalar o GIT que serve para "versionar" códigos.
 Para mais informações:
-- sobre o GIT no VSCode acesse<br>
+
+- sobre o GIT no VSCode acesse
   [https://code.visualstudio.com/docs/editor/versioncontrol](https://code.visualstudio.com/docs/editor/versioncontrol
   "Sobre o GIT no VSCode")
 
-- sobre o GIT no geral<br>
+- sobre o GIT no geral
+  
 [https://git-scm.com](https://git-scm.com "Sobre o GIT")
 
-- para usar o GIT<br>
+- para usar o GIT
+  
   [https://git-scm.com/download/win](https://git-scm.com/download/win "Instalar
   o GIT")
 
 ## OpenJDK Documentation
+
 Para se aprofundar mais em Java tem a documentação oficial do OpenJDK:
 [http://devdocs.io/openjdk/](http://devdocs.io/openjdk/ "Documentação do OpenJDK")

@@ -64,7 +64,6 @@ Vetor ordenado: [0][2][3][4][6]
 
 Crie um método para inserir os valores no vetor, outro para ordenar o vetor e outro para informar o vetor resultante. Para "método ordenar" se pode usar o "método bolha" explicado neste [vídeo](<https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/Ec87A5jXv7VIkfpLSUyvbuYBrPSf3pXBO4lIWOj3TTMH1A?e=mugb45>).
 
-
 ----------
 **Uni6Exe08.java** - Faça um programa que leia um valor N inteiro limitado a 20 posições. Com base neste valor, crie um vetor do tipo real. Faça o usuário informar valores para as posições deste vetor e coloque-as nas posições na sequência informada pelo usuário. Imprima  uma tabela contendo cada valor diferente e o número de vezes que o valor aparece no vetor (veja exemplo a seguir).
 ![Uni6Exe08](./imgs/Uni6Exe08.png)

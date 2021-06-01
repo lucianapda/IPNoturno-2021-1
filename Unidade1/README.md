@@ -1,13 +1,9 @@
 # Introdução à Programação - Unidade 1
 
 ## Fundamentos da Programação de Computadores
-> Videoaula 1_VideoAula-1 (14:06):
-> [https://web.microsoftstream.com/video/4e5ecb83-7e7b-49c8-bb9e-3136e7269631](https://web.microsoftstream.com/video/4e5ecb83-7e7b-49c8-bb9e-3136e7269631
-> "primeira videoaula da unidade 1")<br>
-> Videoaula 1_VideoAula-1 (14:06): [link
-> alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EdPfGQHjAiZGnMaWvq221ngBMk--zVdGuwCtr0-6TZXPJw?e=UHYpHy
-> "link alternativo da primeira videoaula da unidade 1")
-> <br>
+
+Videoaula_1_1 (14:06): [<https://web.microsoftstream.com/video/4e5ecb83-7e7b-49c8-bb9e-3136e7269631>](https://web.microsoftstream.com/video/4e5ecb83-7e7b-49c8-bb9e-3136e7269631 "primeira videoaula da unidade 1")  
+Videoaula_1_1 (14:06): [link alternativo](<https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EdPfGQHjAiZGnMaWvq221ngBYvZiZs15uLRSuXLIMZ1AnA?e=8tiVou> "link alternativo da primeira videoaula da unidade 1")
 
 - Os computadores são máquinas programáveis utilizadas para automatizar tarefas​.
 - As ações executadas por estas máquinas são baseadas em dados e regras que dependem da aplicação para as quais são criadas​.
@@ -37,13 +33,9 @@
 ----------
 
 ## Fundamentos da Programação de Computadores
-> Videoaula 1_VideoAula-2 (18:57):
-> [https://web.microsoftstream.com/video/3725cdf1-320c-4b38-a078-3c90fc3816b0](https://web.microsoftstream.com/video/3725cdf1-320c-4b38-a078-3c90fc3816b0
-> "segunda videoaula da unidade 1")<br>
-> Videoaula 1_VideoAula-2 (18:57): [link
-> alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EYrB2EGFrtVJtYJKlDdpEVIBAa-DcPmpkaQAE7hMRlhqAQ?e=OuJ57z
-> "link alternativo da segunda videoaula da unidade 1")
-> <br>
+
+Videoaula_1_2 (18:57): [<https://web.microsoftstream.com/video/3725cdf1-320c-4b38-a078-3c90fc3816b0>](https://web.microsoftstream.com/video/3725cdf1-320c-4b38-a078-3c90fc3816b0 "segunda videoaula da unidade 1")  
+Videoaula_1_2 (18:57): [link alternativo](<https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EYrB2EGFrtVJtYJKlDdpEVIBsdBIkY3QO4KES6NxqrVcXQ?e=XF1tQk> "link alternativo da segunda videoaula da unidade 1")
 
 ### Ciclo de Vida de um Software​
 - O **desenvolvimento de um software** é realizado em diversas etapas denominadas de ciclo de vida.

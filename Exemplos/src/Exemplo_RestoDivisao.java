@@ -27,7 +27,16 @@ public class Exemplo_RestoDivisao {
 		System.out.println("Resultado da divisão: " + resposta);
 		resposta = numerador % denominador;
 		System.out.println("Resultado do resto da divisão: " + resposta);
-
+		
+		// Operador binário
+		int numero;
+		boolean teste;
+		numero = 20; teste = (numero & 0x01) == 0;
+		teste = (numero % 2) == 0;
+		numero = 21; teste = (numero & 0x01) == 0;
+		teste = (numero % 2) == 0;
+		System.out.println("Resultado: " + teste);
+		
 		System.out.println("..FIM..");
 	}
 }

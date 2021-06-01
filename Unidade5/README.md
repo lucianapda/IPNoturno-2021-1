@@ -1,8 +1,9 @@
 # Introdução à Programação - Unidade 5
 
 ## Comandos de Controle de Fluxo: Repetição
-Videoaula 5_VideoAula-1 (27:57): [https://web.microsoftstream.com/video/1e908336-9737-462a-98d3-798ae6028072](https://web.microsoftstream.com/video/1e908336-9737-462a-98d3-798ae6028072 "primeira videoaula da unidade 5")<br>
-Videoaula 5_VideoAula-1 (27:57): [link alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/Ef5OfUf2PpBGjvq58tiSwS4BIheBeuTITeNlwfl-Wbxsaw?e=zXf9KK "link alternativo da primeira videoaula da unidade 5") <br>
+
+Videoaula_5_1 (27:57): [<https://web.microsoftstream.com/video/1e908336-9737-462a-98d3-798ae6028072>](https://web.microsoftstream.com/video/1e908336-9737-462a-98d3-798ae6028072 "primeira videoaula da unidade 5")  
+Videoaula_5_1 (27:57): [link alternativo](<https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/Ef5OfUf2PpBGjvq58tiSwS4BIheBeuTITeNlwfl-Wbxsaw?e=zXf9KK> "link alternativo da primeira videoaula da unidade 5")
 
 ### Comandos de Controle de Fluxo​: Repetição
 - As estruturas de **Controle de Repetição** são utilizadas para repetir um determinado grupo de comandos por diversas vezes.​
@@ -75,9 +76,10 @@ Videoaula 5_VideoAula-1 (27:57): [link alternativo](https://furb-my.sharepoint.c
 
 ----------
 
-##  Introdução a Linguagem de Programação
-Videoaula 5_VideoAula-2 (18:12): [https://web.microsoftstream.com/video/a883f9e3-c794-45d4-af8a-5680c26fa7e6](https://web.microsoftstream.com/video/a883f9e3-c794-45d4-af8a-5680c26fa7e6 "segunda videoaula da unidade 5")<br>
-Videoaula 5_VideoAula-2 (18:12): [link alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EQ4jF9-zHZZDo4auco41Rb0BJAhU3SLF1mVdNKuiQLwsRA?e=RWa2D5 "link alternativo da segunda videoaula da unidade 5")<br>
+## Introdução a Linguagem de Programação
+
+Videoaula_5_2 (18:12): [<https://web.microsoftstream.com/video/a883f9e3-c794-45d4-af8a-5680c26fa7e6>](https://web.microsoftstream.com/video/a883f9e3-c794-45d4-af8a-5680c26fa7e6 "segunda videoaula da unidade 5")  
+Videoaula_5_2 (18:12): [link alternativo](<https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EQ4jF9-zHZZDo4auco41Rb0BJAhU3SLF1mVdNKuiQLwsRA?e=RWa2D5> "link alternativo da segunda videoaula da unidade 5")
 
 ##### Comandos de Controle de Fluxo​: Repetição: enquanto (while / do while)
 - As estruturas de repetição condicionais avaliam uma determinada condição lógica para fazer a execução do laço de repetição. A condição sempre será avaliada como **verdadeira** ou **falsa**.

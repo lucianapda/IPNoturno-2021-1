@@ -20,7 +20,7 @@ Utilize o nome do arquivo Java e da Classe de acordo com o indicado no inicio de
 **Uni3Exe04.java** - Faça um programa para ler três notas de um  aluno em uma disciplina e imprimira sua média ponderada (as notas tem pesos respectivos de 5, 3 e 2).
   
 ----------
-**Uni3Exe05.java** - Uma  granja  possui  um  controle  automatizado  de  cada  frango  da  sua  produção.  No  pé direito do frango há um anel comum chip de identificação; no pé esquerdo são dois anéis para indicar o tipo de alimento que ele deve consumir. Sabendo que o anel com chip custa R$ 4,00 e o anel de alimento custa R$ 3,50, faça um programa para calcular o gasto total da granja para marcar todos os seus frangos.
+**Uni3Exe05.java** - Uma  granja  possui  um  controle  automatizado  de  cada  frango  da  sua  produção.  No  pé direito do frango há um anel com um chip de identificação; no pé esquerdo são dois anéis para indicar o tipo de alimento que ele deve consumir. Sabendo que o anel com chip custa R$ 4,00 e o anel de alimento custa R$ 3,50, faça um programa para calcular o gasto total da granja para marcar todos os seus frangos.
   
 ----------
 **Uni3Exe06.java** - Um restaurante cobra R$ 25,00 por cada quilo de refeição. Escreva um programa que leia o peso do prato montado pelo cliente (em quilos) e imprima o valor a pagar. O peso do prato é de 750 gramas.

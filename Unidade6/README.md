@@ -1,10 +1,12 @@
 # Introdução à Programação - Unidade 6
 
 ## Tipos Estruturados
-Videoaula 6_VideoAula (30:10): [https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EX_iq35CPStNi5sUo4-50lMBGlb13PLZwWYRJvCjZjciMg?e=SeiiIB](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EX_iq35CPStNi5sUo4-50lMBGlb13PLZwWYRJvCjZjciMg?e=SeiiIB "videoaula da unidade 6")<br>
-Videoaula 6_VideoAula (30:10): [link alternativo](https://web.microsoftstream.com/video/10f00915-0db7-45de-9c7b-c2c0dbe590fd "link alternativo da videoaula da unidade 6") <br>
 
-### Tipo Estruturados
+Videoaula_6 (30:10): [<https://web.microsoftstream.com/video/10f00915-0db7-45de-9c7b-c2c0dbe590fd>](https://web.microsoftstream.com/video/10f00915-0db7-45de-9c7b-c2c0dbe590fd "videoaula da unidade 6")  
+Videoaula_6 (30:10): [link alternativo](<https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EX_iq35CPStNi5sUo4-50lMBGlb13PLZwWYRJvCjZjciMg?e=SeiiIB> "link alternativo da videoaula da unidade 6")
+
+### Tipo Estruturados: exemplos
+
 - Os problemas computacionais muitas vezes exigem o armazenamento de grande quantidade de dados em memória para posterior processamento.​
 - Exemplo 1: dado o nome de 50 pessoas, escrever estes dados em ordem alfabética.
   - Problema: neste caso criaríamos uma variável para cada nome? E se fossem 1000 nomes?​
@@ -15,12 +17,15 @@ Videoaula 6_VideoAula (30:10): [link alternativo](https://web.microsoftstream.co
 - Exemplo 4: uma pessoa quer ir de uma cidade A até uma cidade F. Considerando que há vários caminhos possíveis e que são registradas as distâncias intermediárias entre as cidades (ex. de A a B, de B a C, de B a D, etc.) informe o caminho que tem a menor distância entre A e F.
   - Problema: neste caso quantos caminhos vamos armazenar? Como vamos totalizar parcialmente as distâncias de cada caminho?​
 ​
-### Tipo Estruturados
+
+### Tipo Estruturados: solução
+
 - Para a solução destes exemplos é necessário o uso de **estruturas de dados**.​
 - As estruturas de dados ampliam o conceito de variáveis, pois permitem armazenar diversas informações a partir da definição de uma única variável.​
 - Existem diversos **tipos de estruturas de dados**, tais como, vetores, matrizes, listas, filas, pilhas, árvores, arquivos, entre outras.​
 
 ### Tipo Estruturados Unidimensionais (Vetores)
+
 - Os **Tipos Estruturados Unidimensionais** permitem armazenar diversos dados de um mesmo tipo (homogêneos) em uma única variável​
 - Os **Tipos Estruturados Unidimensionais** também são conhecidos como **Vetores​**
 - Cada dado armazenado é identificada por um **índice**, que é a posição em que o mesmo se encontra dentro da estrutura​
@@ -43,15 +48,9 @@ Videoaula 6_VideoAula (30:10): [link alternativo](https://web.microsoftstream.co
 
 - Sintaxe e exemplo do uso de Tipos Estruturados Unidimensionais (**Vetores**):
 
-- Em Português Estruturado:​
-
-      Na declaração
-        tipo identificador [tamanho]
-      No corpo do programa
-        identificador [indice]
-
 - Em Java:​
-  ```java
+  
+```java
 
     int vetorInteiro[] = new int[10];     // Declaração  
     vetorInteiro[0] = 11;                 // atribuir o valor 11 ao primeiro elemento do vetor
@@ -59,38 +58,37 @@ Videoaula 6_VideoAula (30:10): [link alternativo](https://web.microsoftstream.co
     int varInteiro9 = vetorInteiro[9];    // atribuir o último elemento do vetor para uma variável
     int varInteiro0 = vetorInteiro[0];    // atribuir o primeiro elemento do vetor para uma variável
 
-  ```
-
-- Em Português Estruturado:​
-
-      inteiro numeros[15]
-      para cont de 1 a 15 faça
-        numeros[cont] = cont
-      fim para
+```
 
 - Em Java:​
+
   ```java
 
-    int numeros[] = new int[15];     // Declaração
+    int valores[] = new int[15];     // Declaração
     for (int cont=0; cont<15; cont++) {
-      numeros[cont] = cont;
+      valores[cont] = cont;
     }
 
   ```
 
 ### Tipo Estruturados Unidimensionais (Vetores): denominação
+
 - **tipo**: define os elementos que serão armazenados no vetor. Podem ser tipos simples ou classes.​
 - **tamanho**: define o número de elementos do vetor.​
 - **índice**: define a posição do elemento no vetor. Pode ser definido através de valores constantes, variáveis ou expressões. ​
 
 ### Tipo Estruturados Unidimensionais (Vetores): N-Dimensões
+
 - Existem tipos estruturados n-dimensionais. Por exemplo, os **tipos estruturados bidimensionais** permitem organizar elementos em **linhas** e **colunas**
 - Os tipos estruturados bidimensionais são comumente chamados de **Matrizes**
-![Matriz com 5 linhas e 10 coleunas](imgs/matriz5x10.png)
+![Matriz com 5 linhas e 10 colunas](imgs/matriz5x10.png)
 
 ----------
+
 ### Principais Referências Bibliográficas​
-- DEITEL, Paul J; DEITEL, Harvey M. **[Java: como programar](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=341002)**. 8. ed. São Paulo: Pearson, 2010. xxix, 1144 p, il.​
-- HORSTMANN, Cay S. **[Big Java](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=271388)**. Porto Alegre : Bookman, 2004. xi, 1125 p, il. , 1 CD-ROM.​
-- SCHILDT, Herbert; HOLMES, James. **[A arte do Java](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=257427)**. Rio de Janeiro : Elsevier : Campus, c2003. xvi, 382 p, il.​
-----------
+
+DEITEL, Paul J; DEITEL, Harvey M. **[Java: como programar](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=341002)**. 8. ed. São Paulo: Pearson, 2010. xxix, 1144 p, il.​
+
+HORSTMANN, Cay S. **[Big Java](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=271388)**. Porto Alegre : Bookman, 2004. xi, 1125 p, il. , 1 CD-ROM.​
+
+SCHILDT, Herbert; HOLMES, James. **[A arte do Java](https://bu.furb.br/consulta/portalConsulta/recuperaMfnCompleto.php?menu=rapida&CdMFN=257427)**. Rio de Janeiro : Elsevier : Campus, c2003. xvi, 382 p, il.​

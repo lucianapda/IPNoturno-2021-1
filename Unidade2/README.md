@@ -1,11 +1,9 @@
 # Introdução à Programação - Unidade 2
 
 ## Construção de Algoritmos
-> Videoaula 2_VideoAula-1 (16:19):
-> [https://web.microsoftstream.com/video/b74928f9-3000-4c46-9a1e-42b0aabaa94c](https://web.microsoftstream.com/video/b74928f9-3000-4c46-9a1e-42b0aabaa94c "primeira videoaula da unidade 2") <br>
-> Videoaula 2_VideoAula-1 (16:19):  [link
-> alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EVlEcOSNE1dMvrqhbFRgFOgBaMLrJR6iNVAVvAd7kP7G3g?e=ApntHQ
-> "link alternativo da primeira videoaula da unidade 2") <br>
+
+Videoaula_2_1 (16:19): [<https://web.microsoftstream.com/video/b74928f9-3000-4c46-9a1e-42b0aabaa94c>](https://web.microsoftstream.com/video/b74928f9-3000-4c46-9a1e-42b0aabaa94c "primeira videoaula da unidade 2")  
+Videoaula_2_1 (16:19):  [link alternativo](<https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/EVlEcOSNE1dMvrqhbFRgFOgBmYqKrGGqjicI7SocBGPnbA?e=V7ZsYu> "link alternativo da primeira videoaula da unidade 2")
 
 ### Solução de Problemas
 ![Imagem das etapas: Entrada, Processo e Saída](../Unidade1/imgs/img_EPS.png "Imagem das etapas: Entrada, Processo e Saída")
@@ -65,11 +63,9 @@
 ----------
 
 ## Construção de Algoritmos
-> Videoaula 2_VideoAula-2 (22:58):
-> [https://web.microsoftstream.com/video/752f9866-d61a-4839-a13a-0f8ad4b6cfba](https://web.microsoftstream.com/video/752f9866-d61a-4839-a13a-0f8ad4b6cfba "segunda videoaula da unidade 2") <br>
-> Videoaula 2_VideoAula-2 (22:58): [link
-> alternativo](https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/ESboEsA6q0ZKkvnYS2z8qqEBGXu569KM_mkMwWHV5hprcA?e=nh4dgI
-> "link alternativo da segunda videoaula da unidade 2") <br>
+
+Videoaula_2_2 (22:58): [<https://web.microsoftstream.com/video/752f9866-d61a-4839-a13a-0f8ad4b6cfba>](https://web.microsoftstream.com/video/752f9866-d61a-4839-a13a-0f8ad4b6cfba "segunda videoaula da unidade 2")  
+Videoaula_2_2 (22:58): [link alternativo](<https://furb-my.sharepoint.com/:v:/g/personal/dalton_furb_br/ESboEsA6q0ZKkvnYS2z8qqEBATr4x5__gT4YFu_9MSeP_w?e=C7YWr7> "link alternativo da segunda videoaula da unidade 2")
 
 ### Descrever a Solução do Problema​
 | Tipo       | Descrição                                     |

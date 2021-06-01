@@ -4,12 +4,15 @@ Implemente  uma  classe  com  o  método  main  para  cada  um  dos seguintes  e
 
 Utilize o nome do arquivo Java e da Classe de acordo com o indicado no inicio de cada enunciado.
 
+----------
 ### Grupo SE (if)
+----------
 
 **Uni4Exe01.java** - A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que trabalhar mais de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 50%. Escreva um algoritmo que leia o número de horas trabalhadas em um mês, o valor por hora e escreva o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas (considere que o mês possua 4 semanas exatas).
 
 ----------
 ### Grupo SE - SENÃO (if - else)
+----------
 
 **Uni4Exe02.java** - Dado um valor inteiro maior do que 0 informe se o valor é par ou ímpar.
 
@@ -109,8 +112,8 @@ Faça um algoritmo para classificar o IMC e dizer o grau de obesidade do indiví
 | >=  40.0 | Obesidade Grau III (mórbida) |
 
 ----------
-
 ### Grupo ESCOLHA (switch)
+----------
 
 **Uni4Exe22.java** - Um aluno está em dúvida sobre o título que vai receber após concluir seu curso de graduação. Considerando que o sistema apresenta 3 cursos disponíveis (1 – Ciência da Computação, 2 – Licenciatura da Computação e 3 – Sistemas de Informação) descreva um algoritmo para ler a opção do aluno e escrever uma mensagem informando o título que o aluno vai receber caso opte por aquele curso. As titulações são respectivamente: "Bacharel em Ciência da Computação", "Licenciado em Computação" e "Bacharel em Sistemas de Informação".
 

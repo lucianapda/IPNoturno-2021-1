@@ -4,7 +4,9 @@ Implemente  uma  classe  com  o  método  main  para  cada  um  dos seguintes  e
 
 Utilize o nome do arquivo Java e da Classe de acordo com o indicado no inicio de cada enunciado.
 
+----------
 ### Grupo FOR
+----------
 
 **Uni5Exe01.java** - Descreva um algoritmo que leia 20 números inteiros e escreva, para cada número lido, se o mesmo é par ou ímpar. 
  
@@ -84,6 +86,7 @@ Escreva um programa que pesquise e imprima os 10 primeiros números naturais que
 
 ----------
 ### Grupo WHILE
+----------
 
 **Uni5Exe15.java** - Dada uma turma de alunos, contendo seu nome e nota de duas provas descreva um algoritmo para informar a média de cada aluno. Considere que a leitura dos dados deve ser finalizada quando o nome do aluno for “fim”.
 
@@ -241,6 +244,7 @@ O algoritmo deve apresentar ao usuário a seguinte mensagem: mais um voto: s (SI
 
 ----------
 ### Grupo DO WHILE
+----------
 
 **Uni5Exe33.java** - Em uma eleição para presidência, existem 4 candidatos. Os votos são informados através de código. Os dados utilizados para votação obedecem a seguinte codificação:
 - 1, 2, 3, 4 = voto para o respectivo candidato
@@ -267,3 +271,5 @@ Descreva um algoritmo que apresente as seguintes opções ao recepcionista:
 - (3) sair
 
 Caso a opção escolhida seja a primeira, leia o nome e o número de diárias do hóspede e escreva o nome e total a ser pago. Caso a opção escolhida seja a segunda, informe o número de hóspedes que deixaram o hotel (número de contas encerradas). Caso a opção escolhida seja a terceira finalize a execução do algoritmo.
+
+----------
