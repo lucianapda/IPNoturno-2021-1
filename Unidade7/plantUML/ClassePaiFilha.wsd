@@ -1,0 +1,17 @@
+@startuml
+class ClasseFilha [[java:ClasseFilha]] {
+	-int valor
+	-int valorIniciado
+	+ClasseFilha()
+	+ClasseFilha(int valor)
+	+void imprimir()
+}
+class ClassePai [[java:ClassePai]] {
+	-int valor
+	-ClassePai()
+	+{static}void main(String[] args)
+}
+class ClasseFilha [[java:ClasseFilha]] {
+}
+ClassePai --> "1" ClasseFilha : classeB
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+class ClasseMatriz [[java:ClasseMatriz]] {
+}
+class ClasseVetMat [[java:ClasseVetMat]] {
+	-Scanner teclado
+	-ClasseVetMat()
+	+{static}void main(String[] args)
+}
+class ClasseVetor [[java:ClasseVetor]] {
+}
+ClasseVetMat --> "1" ClasseVetor : classeVetor
+class ClasseMatriz [[java:ClasseMatriz]] {
+}
+ClasseVetMat --> "1" ClasseMatriz : classeMatriz
+class ClasseVetor [[java:ClasseVetor]] {
+	-int[] vet
+	-int posFim
+	-boolean vetorVazio()
+	+void vetorIncluir(Scanner teclado)
+	+int vetorPesquisar(Scanner teclado)
+	+void vetorAlterar(Scanner teclado)
+	+void vetorExcluir(Scanner teclado)
+	+void valorMostrar()
+	+void valorOrdenar()
+}
+@enduml
