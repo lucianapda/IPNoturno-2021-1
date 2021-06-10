@@ -2,42 +2,29 @@ import java.util.Scanner;
 
 public class ClasseVetor {
   private int vet[];
-  private int posFim = 0; // posição no topo do vetor
+  private boolean vetVazio;
 
   public ClasseVetor(int tamanho) {
-    if (tamanho > 0) {
-      vet = new int[tamanho];
-    } else {
-      System.out.println(" .. tamanho deve ser maior que zero .. ");
-    }
-  }
-
-  private boolean vazio() {
-    if (posFim == 0) {
-      System.out.println(" . vetor vazio! ");
-      return true;
-    }
-    return false;
+    vet = new int[tamanho];
+    vetVazio = true;
   }
 
   public void incluir(Scanner teclado) {
-    if (posFim < vet.length) {
-      System.out.print(" valor: ");
-      vet[posFim] = teclado.nextInt();
-      posFim++;
-      System.out.println("_ incluído em vet[" + posFim + "].");
-    } else {
-      System.out.println(" .. não incluído - vetor cheio .. ");
+    for (int i = 0; i < vet.length; i++) {
+      System.out.print(" vetor[" + i + "]: ");
+      vet[i] = teclado.nextInt();
     }
+    vetVazio = false;
   }
 
   public int pesquisar(Scanner teclado) {
-    if (vazio()) {
+    if (vetVazio) {
+      System.out.println("_ Vetor Vazio.");
       return -1;
     }
     System.out.print(" valor pesquisa: ");
     int valor = teclado.nextInt();
-    for (int i = 0; i < posFim; i++) {
+    for (int i = 0; i < vet.length; i++) {
       if (valor == vet[i]) {
         System.out.println("_ encontrado vet[" + i + "]");
         return i;
@@ -52,34 +39,27 @@ public class ClasseVetor {
     if (valorId != -1) {
       System.out.print(" valor troca: ");
       vet[valorId] = teclado.nextInt();
-      System.out.println("_ valor troca vet[" + valorId + "]: " + vet[valorId]);
-    }
-  }
-
-  public void excluir(Scanner teclado) {
-    int valorId = pesquisar(teclado);
-    if (valorId != -1) {
-      for (int i = valorId; i < (posFim - 1); i++) {
-        vet[i] = vet[i + 1];
-      }
-      posFim--;
-      System.out.println("_ valor excluído.");
+      System.out.println("_ valor troca vetor[" + valorId + "]: " + vet[valorId]);
     }
   }
 
   public void mostrar() {
-    System.out.println(" __ vetor valores __ ");
-    if (!vazio()) {
-      for (int i = 0; i < posFim; i++) {
-        System.out.println("vet[" + i + "] " + vet[i]);
+    if (vetVazio) {
+      System.out.println("_ Vetor Vazio.");
+    } else {
+      System.out.println(" __ vetor valores __ ");
+      for (int i = 0; i < vet.length; i++) {
+        System.out.println("vetor[" + i + "] " + vet[i]);
       }
     }
   }
 
   public void ordenar() {
-    if (!vazio()) {
+    if (vetVazio) {
+      System.out.println("_ Vetor Vazio.");
+    } else {
       int bolha;
-      for (int i = 0; i < posFim - 1; i++) {
+      for (int i = 0; i < vet.length - 1; i++) {
         if (vet[i] > vet[i + 1]) {
           bolha = vet[i];
           vet[i] = vet[i + 1];

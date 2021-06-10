@@ -1,0 +1,21 @@
+@startuml
+class Pessoa [[java:Pessoa]] {
+	-nome: String
+	+Pessoa()
+	+informarEndereco(teclado: Scanner): void
+	+mudarEndereco(teclado: Scanner): void
+	+{static} main(args: String[]): void
+}
+class Endereco [[java:Endereco]] {
+}
+Pessoa --> "1" Endereco : endereco
+class Endereco [[java:Endereco]] {
+	-bairro: String
+	-rua: String
+	-numero: int
+	+Endereco(bairro: String, rua: String, numero: int)
+	+mudarEndereco(bairro: String, rua: String, numero: int): void
+	+imprimirEndereco(): String
+	+imprimirEndereco(complemento: String): String
+}
+@enduml

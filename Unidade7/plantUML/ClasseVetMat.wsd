@@ -1,9 +1,10 @@
 @startuml
-class ClasseMatriz [[java:ClasseMatriz]] {
-}
 class ClasseVetMat [[java:ClasseVetMat]] {
 	-Scanner teclado
+	-int opcao
 	-ClasseVetMat()
+	-void menuVetor()
+	-void menuMatriz()
 	+{static}void main(String[] args)
 }
 class ClasseVetor [[java:ClasseVetor]] {
@@ -14,13 +15,24 @@ class ClasseMatriz [[java:ClasseMatriz]] {
 ClasseVetMat --> "1" ClasseMatriz : classeMatriz
 class ClasseVetor [[java:ClasseVetor]] {
 	-int[] vet
-	-int posFim
-	-boolean vetorVazio()
-	+void vetorIncluir(Scanner teclado)
-	+int vetorPesquisar(Scanner teclado)
-	+void vetorAlterar(Scanner teclado)
-	+void vetorExcluir(Scanner teclado)
-	+void valorMostrar()
-	+void valorOrdenar()
+	-boolean vetVazio
+	+ClasseVetor(int tamanho)
+	+void incluir(Scanner teclado)
+	+int pesquisar(Scanner teclado)
+	+void alterar(Scanner teclado)
+	+void mostrar()
+	+void ordenar()
+}
+class ClasseMatriz [[java:ClasseMatriz]] {
+	-int[][] mat
+	-int qtdLinha
+	-int qtdColuna
+	-boolean matVazia
+	+ClasseMatriz(int qtdLinha, int qtdColuna)
+	+void incluir(Scanner teclado)
+	+boolean pesquisar(Scanner teclado, int[] idLC)
+	+void alterar(Scanner teclado)
+	+void mostrar()
+	+void ordenar()
 }
 @enduml
