@@ -26,7 +26,7 @@ Para desenvolver este problema se deve seguir fielmente a descrição das três 
 - método *construtor* instância:
   - objeto *jogoMapa* da classe *JogoDaVelha_Mapa*,
   - objeto *jogoPC* da classe *JogoDaVelha_PC* e
-  - objeto *jogoJogador* da classe *JogoDaVelha_Jogador*, 
+  - objeto *jogoJogador* da classe *JogoDaVelha_Jogador*,  
   para iniciar os atributos desta classe;
 - método *construtor* controla se “Deseja jogar novamente”;
 - método *jogar* “limpa" o mapa a cada nova partida usando o método *limpaMapa*;
@@ -46,7 +46,7 @@ Para desenvolver este problema se deve seguir fielmente a descrição das três 
 
 ### Classe JogoDaVelha_PC
 
-- a jogada do PC deve ser representada pelo caracter 'O' (sua letra);
+- a jogada do PC deve ser representada pelo carácter 'O' (sua letra);
 - usar o método *sortear* para definir a próxima jogada do PC;
 - a cada jogada testar se o PC venceu, e neste caso imprimir " ... PC GANHOU!".
 
@@ -74,7 +74,7 @@ As mensagens mostradas ao executar o código deste trabalho devem seguir o que �
 - Abra o console do Windows pressionando a tecla Windows e depois digitando “cmd" e pressionar “enter”. Se for Linux ou MacOS abra o “terminal"  
 ![cmd Windows](cmdWindows.png)
 - Agora mude de pasta, para pasta que tem o **JogoDaVelha.jar**. No meu caso para pasta de Download  
-![pasta download](pastaDonwload.png)
+![pasta download](pastaDownload.png)
 - E para executar digitar
 
   > java -jar JogoDaVelha.jar
