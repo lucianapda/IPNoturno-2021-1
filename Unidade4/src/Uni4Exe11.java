@@ -1,57 +1,52 @@
 import java.util.Scanner;
-
 public class Uni4Exe11 {
+  public static void main(String[] args) {
+    Scanner teclado = new Scanner(System.in);
+    System.out.println("Irmão 1, ano: ");
+    int idadeIrmao1 = teclado.nextInt();
+    System.out.println("Irmão 2, ano: ");
+    int idadeIrmao2 = teclado.nextInt();
+    System.out.println("Irmão 3, ano: ");
+    int idadeIrmao3 = teclado.nextInt();
 
-    public static void main(String[] args) {
-
-        /**
-         * Uni4Exe11.java - Escreva um algoritmo para ler o ano de nascimento de 3
-         * irmãos, escrever uma mensagem que indique se eles são TRIGÊMEOS, GÊMEOS,
-         * APENAS IRMÃOS. Considere que eles são GÊMEOS se dois deles possuem a mesma
-         * idade e o outro diferente dos demais, e apenas irmãos se todas as idades
-         * forem diferentes.
-         */
-        Scanner entrada = new Scanner(System.in);
-
-        System.out.print("Digite o ano de nascimento do irmão 1: ");
-        int ano1 = entrada.nextInt();
-
-        System.out.print("Digite o ano de nascimento do irmão 2: ");
-        int ano2 = entrada.nextInt();
-
-        System.out.print("Digite o ano de nascimento do irmão 3: ");
-        int ano3 = entrada.nextInt();
-
-        if (ano1 == ano2 && ano1 == ano3) {
-            System.out.println("Trigêmeos");
-        } else {
-            if (ano1 != ano2 && ano1 != ano3 && ano2 != ano3) {
-                System.out.println("Irmãos");
-            } else {
-                System.out.println("Gêmeos");
-            }
-        }
-
-        // ---------------
-
-        if (ano1 == ano2) {
-            if (ano1 == ano3) {
-                System.out.println("Trigêmeos");
-            } else {
-                System.out.println("Gêmeos");
-            }
-        } else {
-            if (ano1 != ano3) {
-                if (ano2 != ano3) {
-                    System.out.println("Irmãos");
-                } else {
-                    System.out.println("Gêmeos");
-                }
-            } else {
-                System.out.println("Gêmeos");
-            }
-
-        }
-        entrada.close();
+    if (idadeIrmao1 == idadeIrmao2 && idadeIrmao1 == idadeIrmao3) {
+          System.out.println("TRIGÊMEOS");
+    } else {
+      if (idadeIrmao1 == idadeIrmao2 || 
+          idadeIrmao1 == idadeIrmao3 || 
+          idadeIrmao2 == idadeIrmao3) {
+            System.out.println("GÊMEOS");
+      } else {
+        System.out.println("APENAS IRMÃOS");
+      }
     }
+
+    teclado.close();
+  }
 }
+
+
+/* 
+TRIGÊMEOS ___
+idadeIrmao1 = 23
+idadeIrmao2 = 23
+idadeIrmao3 = 23
+
+GÊMEOS ____
+idadeIrmao1 = 10  ->
+idadeIrmao2 = 45
+idadeIrmao3 = 10  -> 
+
+idadeIrmao1 = 10  -> 
+idadeIrmao2 = 10  ->
+idadeIrmao3 = 45
+
+idadeIrmao1 = 45   
+idadeIrmao2 = 10  ->
+idadeIrmao3 = 10  ->
+
+APENAS IRMÃOS ___
+idadeIrmao1 = 23
+idadeIrmao2 = 12
+idadeIrmao3 =  5
+*/

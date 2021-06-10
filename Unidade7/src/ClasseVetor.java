@@ -1,10 +1,18 @@
 import java.util.Scanner;
 
 public class ClasseVetor {
-  private int vet[] = new int[50];
+  private int vet[];
   private int posFim = 0; // posição no topo do vetor
 
-  private boolean vetorVazio() {
+  public ClasseVetor(int tamanho) {
+    if (tamanho > 0) {
+      vet = new int[tamanho];
+    } else {
+      System.out.println(" .. tamanho deve ser maior que zero .. ");
+    }
+  }
+
+  private boolean vazio() {
     if (posFim == 0) {
       System.out.println(" . vetor vazio! ");
       return true;
@@ -12,7 +20,7 @@ public class ClasseVetor {
     return false;
   }
 
-  public void vetorIncluir(Scanner teclado) {
+  public void incluir(Scanner teclado) {
     if (posFim < vet.length) {
       System.out.print(" valor: ");
       vet[posFim] = teclado.nextInt();
@@ -23,8 +31,8 @@ public class ClasseVetor {
     }
   }
 
-  public int vetorPesquisar(Scanner teclado) {
-    if (vetorVazio()) {
+  public int pesquisar(Scanner teclado) {
+    if (vazio()) {
       return -1;
     }
     System.out.print(" valor pesquisa: ");
@@ -39,8 +47,8 @@ public class ClasseVetor {
     return -1;
   }
 
-  public void vetorAlterar(Scanner teclado) {
-    int valorId = vetorPesquisar(teclado);
+  public void alterar(Scanner teclado) {
+    int valorId = pesquisar(teclado);
     if (valorId != -1) {
       System.out.print(" valor troca: ");
       vet[valorId] = teclado.nextInt();
@@ -48,8 +56,8 @@ public class ClasseVetor {
     }
   }
 
-  public void vetorExcluir(Scanner teclado) {
-    int valorId = vetorPesquisar(teclado);
+  public void excluir(Scanner teclado) {
+    int valorId = pesquisar(teclado);
     if (valorId != -1) {
       for (int i = valorId; i < (posFim - 1); i++) {
         vet[i] = vet[i + 1];
@@ -59,17 +67,17 @@ public class ClasseVetor {
     }
   }
 
-  public void valorMostrar() {
+  public void mostrar() {
     System.out.println(" __ vetor valores __ ");
-    if (!vetorVazio()) {
+    if (!vazio()) {
       for (int i = 0; i < posFim; i++) {
         System.out.println("vet[" + i + "] " + vet[i]);
       }
     }
   }
 
-  public void valorOrdenar() {
-    if (!vetorVazio()) {
+  public void ordenar() {
+    if (!vazio()) {
       int bolha;
       for (int i = 0; i < posFim - 1; i++) {
         if (vet[i] > vet[i + 1]) {

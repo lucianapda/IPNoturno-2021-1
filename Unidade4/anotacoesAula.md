@@ -4,12 +4,12 @@
   b) SE/SENÃO - condição encadeada<br>
 
 variáveis lógicas<br>
-https://github.com/dalton-reis/disciplina-ip-mat/tree/main/Unidade3#lógico
+https://github.com/dalton-reis/disciplina-ip-not/tree/main/Unidade3#lógico
 
 true/false - 1/0  - yes/no
 
 Tabela de comparação: operadores relacionais<br>
-https://github.com/dalton-reis/disciplina-ip-mat/tree/main/Unidade4#operadores-relacionais-em-java
+https://github.com/dalton-reis/disciplina-ip-not/tree/main/Unidade4#operadores-relacionais-em-java
 
 Depuração (VSCode)<br>
 Valores Testes<br>
@@ -34,7 +34,7 @@ de cartas "boas", <br>
 tipo: qtCartasBoas = 0
 
 Tabela de operadores lógicos<br>
-https://github.com/dalton-reis/disciplina-ip-mat/tree/main/Unidade4#operadores-lógicos-em-java
+https://github.com/dalton-reis/disciplina-ip-not/tree/main/Unidade4#operadores-lógicos-em-java
 
 Depuração (VSCode)<br>
 Valores Testes<br>
