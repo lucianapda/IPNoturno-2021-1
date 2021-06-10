@@ -27,7 +27,7 @@ Para desenvolver este problema se deve seguir fielmente a descrição das três 
   - objeto *jogoMapa* da classe *JogoDaVelha_Mapa*,
   - objeto *jogoPC* da classe *JogoDaVelha_PC* e
   - objeto *jogoJogador* da classe *JogoDaVelha_Jogador*,  
-  para iniciar os atributos desta classe;
+  para iniciar os atributos da classe *JogoDaVelha*;
 - método *construtor* controla se “Deseja jogar novamente”;
 - método *jogar* “limpa" o mapa a cada nova partida usando o método *limpaMapa*;
 - método *jogar* sorteia quem inicia a partida (jogador ou PC);
