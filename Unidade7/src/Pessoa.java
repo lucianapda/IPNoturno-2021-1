@@ -6,6 +6,7 @@ public class Pessoa {
     private String nome;
 
     public Pessoa() {
+        System.out.println("\033[H\033[2J"); // limpa console
         Scanner teclado = new Scanner(System.in);
 
         informarEndereco(teclado);
