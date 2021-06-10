@@ -26,7 +26,7 @@ Para desenvolver este problema deve-se seguir fielmente a descrição das três 
 - *construtor* instância:
   - objeto *jogoMapa* da classe *Mapa*,
   - objeto *jogoPC* da classe *PC*,
-  - objeto *jogoJogador* da classe *Jogador*, e
+  - objeto *jogoJogador* da classe *Jogador*, e  
   para iniciar os atributos da classe *JogoDaVelha*;
 - *construtor* controla se “Deseja jogar novamente”;
 - método *jogar* “limpa" o mapa a cada nova partida usando o método *limpar* da classe *Mapa*;
