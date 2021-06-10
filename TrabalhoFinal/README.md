@@ -5,11 +5,11 @@
 - Só é permitido o uso de comandos estudados em sala de aula até o momento.
 - As únicas estruturas de dados permitidas para a solução de problemas são variáveis primitivas, strings e matrizes.
 - Nenhuma outra estrutura ou biblioteca é permitida, a não ser o uso do "import java.util.Scanner".
-- As dúvidas referente a este trabalho serão respondidas **somente** durante as aulas.
-- Lembre de consultar o repositório de exemplos desta disciplina pois pode ajudar no desenvolvimento deste trabalho (principalmente o exemplo Exemplo_Sortear.java).
-- Uma vez apresentado o trabalho para avaliação não pode ser reapresentado.
-- Os trabalhos podem ser desenvolvidos em **equipe de no máximo 3 alunos**. Prazo máximo para definir as equipes no AVA3 (Unidade7 / Definir equipes): 13/06.
-- Mesmo sendo um trabalho desenvolvido em equipe, as notas podem ser diferente para cada integrante, pois vai depender do conhecimento de cada integrante em relação ao conteúdo do trabalho apresentado.
+- As dúvidas referentes a este trabalho serão respondidas **somente** durante as aulas.
+- Lembre de consultar o repositório de exemplos desta disciplina, pois pode ajudar no desenvolvimento deste trabalho (principalmente o exemplo Exemplo_Sortear.java).
+- Uma vez apresentado o trabalho para avaliação, este não pode ser reapresentado.
+- Os trabalhos podem ser desenvolvidos em **equipes de no máximo 3 alunos**. Prazo máximo para definir as equipes no AVA3 (Unidade7 / Definir equipes): 13/06.
+- Mesmo sendo um trabalho desenvolvido em equipe, as notas podem ser diferentes para cada integrante, pois vai depender do conhecimento de cada integrante em relação ao conteúdo do trabalho apresentado.
 - A apresentação só poderá ser feita após a equipe postar no AVA3 os fontes do trabalho. Somente um integrante da equipe deve postar o trabalho no AVA3.
 - O código postado/apresentado não pode ter erros de execução (use comentários para tirar possíveis erros).
 - A equipe deve avisar o professor pelo MS-Teams que deseja apresentar o trabalho.
@@ -18,24 +18,24 @@
 ## Enunciado
 
 Com base nas seguintes descrições, implemente o problema do: **Jogo da Velha**.  
-Para desenvolver este problema se deve seguir fielmente a descrição das três classes a baixo.
+Para desenvolver este problema deve-se seguir fielmente a descrição das três classes abaixo.
 
 ### Classe JogoDaVelha
 
-- método *construtor* declara a única ocorrência do objeto teclado da classe Scanner para permitir ler dados do console usando o teclado;
-- método *construtor* instância:
-  - objeto *jogoMapa* da classe *JogoDaVelha_Mapa*,
-  - objeto *jogoPC* da classe *JogoDaVelha_PC* e
-  - objeto *jogoJogador* da classe *JogoDaVelha_Jogador*,  
+- *construtor* declara a única ocorrência do objeto teclado da classe Scanner para permitir ler dados do console usando o teclado;
+- *construtor* instância:
+  - objeto *jogoMapa* da classe *Mapa*,
+  - objeto *jogoPC* da classe *PC*,
+  - objeto *jogoJogador* da classe *Jogador*, e
   para iniciar os atributos da classe *JogoDaVelha*;
-- método *construtor* controla se “Deseja jogar novamente”;
-- método *jogar* “limpa" o mapa a cada nova partida usando o método *limpaMapa*;
-- método *jogar* sorteia quem inicia a partida (jogador ou PC);
+- *construtor* controla se “Deseja jogar novamente”;
+- método *jogar* “limpa" o mapa a cada nova partida usando o método *limpar* da classe *Mapa*;
+- método *jogar* sorteia quem inicia a partida (jogador ou PC) usando o método *sortear*;
 - método *jogar* tem a variável que conta quantas jogadas já foram executadas;
-- método *jogar* chama o método de *desenha* o mapa;
+- método *jogar* chama o método que *desenhar* da classe *Mapa*;
 - método *jogar* tem o laço que controla as jogadas, alternando a vez entre jogador e PC.
 
-### Classe JogoDaVelha_Mapa
+### Classe Mapa
 
 - mapa é definido pelo tipo primitivo *char*;
 - implementa o método *sortear* disponível em Exemplos;
@@ -44,17 +44,17 @@ Para desenvolver este problema se deve seguir fielmente a descrição das três 
 - considerar o caso de empate no final da partida;
 - testar no método *jogar* se a linha e coluna recebida representa uma célula livre no mapa, e em caso positivo marcar nesta célula quem jogou (usar a letra).
 
-### Classe JogoDaVelha_PC
+### Classe PC
 
 - a jogada do PC deve ser representada pelo carácter 'O' (sua letra);
 - usar o método *sortear* para definir a próxima jogada do PC;
-- a cada jogada testar se o PC venceu, e neste caso imprimir " ... PC GANHOU!".
+- a cada jogada testar se o PC venceu (usando o método *verificarGanhador*), e neste caso imprimir " ... PC GANHOU!".
 
-### Classe JogoDaVelha_Jogador
+### Classe Jogador
 
 - a jogada do jogador deve ser representada pelo carácter 'X' (sua letra);
-- usar o método *joga* para ler linha e coluna do teclado;
-- a cada jogada testar se o jogador venceu, e neste caso imprimir " ... Jogador GANHOU!";
+- usar o método *jogar* para ler linha e coluna do teclado;
+- a cada jogada testar se o jogador venceu (usando o método *verificarGanhador*), e neste caso imprimir " ... Jogador GANHOU!";
 - verificar se os valores de linha e coluna são válidos (dentro dos limites do mapa).
 
 ## Atenção
