@@ -18,7 +18,7 @@
 ## Enunciado
 
 Com base nas seguintes descrições, implemente o problema do: **Jogo da Velha**.  
-Para desenvolver este problema deve-se seguir fielmente a descrição das três classes abaixo.
+Para desenvolver este problema deve-se seguir fielmente a descrição das quatro classes abaixo.
 
 ### Classe JogoDaVelha
 
