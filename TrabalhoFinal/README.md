@@ -80,4 +80,3 @@ As mensagens mostradas ao executar o código deste trabalho devem seguir o que �
   > java -jar JogoDaVelha.jar
 
 - Pronto, é só usar (jogar) ... e ver como deve ficar as saídas.
-  
