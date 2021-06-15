@@ -47,12 +47,14 @@ Para desenvolver este problema deve-se seguir fielmente a descrição das quatro
 ### Classe PC
 
 - a jogada do PC deve ser representada pelo carácter 'O' (sua letra);
+- está classe tem um atributo classe *Mapa* que deve receber em seu construtor o objeto *mapa* que foi passado como parâmetro;
 - usar o método *sortear* para definir a próxima jogada do PC;
 - a cada jogada testar se o PC venceu (usando o método *verificarGanhador*), e neste caso imprimir " ... PC GANHOU!".
 
 ### Classe Jogador
 
 - a jogada do jogador deve ser representada pelo carácter 'X' (sua letra);
+- está classe tem um atributo classe *Mapa* que deve receber em seu construtor o objeto *mapa* que foi passado como parâmetro;
 - usar o método *jogar* para ler linha e coluna do teclado;
 - a cada jogada testar se o jogador venceu (usando o método *verificarGanhador*), e neste caso imprimir " ... Jogador GANHOU!";
 - verificar se os valores de linha e coluna são válidos (dentro dos limites do mapa).
