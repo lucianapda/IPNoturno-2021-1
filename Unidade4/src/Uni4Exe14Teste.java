@@ -28,7 +28,7 @@ public class Uni4Exe14Teste {
     return false;
   }
 
-  public Uni4Exe14Teste() {
+  private Uni4Exe14Teste() {
     for (int i = 0;i < anoBissextos.length; i++) {
       if (!testeBissexto(29, 2, anoBissextos[i]))
         System.out.println("ERRO: "+anoBissextos[i]);

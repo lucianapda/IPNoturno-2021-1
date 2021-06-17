@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Pessoa {
-    
+
     private Endereco endereco;
     private String nome;
 
@@ -10,10 +10,10 @@ public class Pessoa {
         Scanner teclado = new Scanner(System.in);
 
         informarEndereco(teclado);
-        
+
         System.out.print("Nome: ");
         this.nome = teclado.next();
-    
+
         System.out.println("--- Endereço ---");
         System.out.println(this.nome + " mora no " + this.endereco.imprimirEndereco());
 
@@ -23,9 +23,8 @@ public class Pessoa {
         System.out.println("--- Novo Endereço ---");
         System.out.println(this.nome + " mora no " + this.endereco.imprimirEndereco(complemento));
 
-        
+        teclado.close();
     }
-
 
     public void informarEndereco(Scanner teclado) {
         System.out.print("Bairro: ");

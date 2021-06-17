@@ -50,19 +50,19 @@ public class Uni6Exe10_ComMetodo {
 		} while (opcao != 7);
 	}
 
-	public int valorIncluir(int vet[], int posFim, Scanner teclado) {
+	private int valorIncluir(int vet[], int posFim, Scanner teclado) {
 		if (posFim < vet.length) {
 			System.out.print(" valor: ");
 			vet[posFim] = teclado.nextInt();
-			posFim++;
 			System.out.println("_ incluído em vet[" + posFim + "].");
+			posFim++;
 		} else {
 			System.out.println(" .. não incluído - vetor cheio .. ");
 		}
 		return posFim;
 	}
 
-	public int valorPesquisar(int vet[], int posFim, Scanner teclado) {
+	private int valorPesquisar(int vet[], int posFim, Scanner teclado) {
 		System.out.print(" valor pesquisa: ");
 		int valor = teclado.nextInt();
 		for (int i = 0; i < posFim; i++) {
@@ -75,7 +75,7 @@ public class Uni6Exe10_ComMetodo {
 		return -1;
 	}
 
-	public void valorAlterar(int vet[], int posFim, Scanner teclado) {
+	private void valorAlterar(int vet[], int posFim, Scanner teclado) {
 		int valorId = valorPesquisar(vet, posFim, teclado);
 		if (valorId != -1) {
 			System.out.print(" valor troca: ");
@@ -84,7 +84,7 @@ public class Uni6Exe10_ComMetodo {
 		}
 	}
 
-	public int valorExcluir(int vet[], int posFim, Scanner teclado) {
+	private int valorExcluir(int vet[], int posFim, Scanner teclado) {
 		int valorId = valorPesquisar(vet, posFim, teclado);
 		if (valorId != -1) {
 			for (int i = valorId; i < (posFim - 1); i++) {
@@ -96,14 +96,14 @@ public class Uni6Exe10_ComMetodo {
 		return posFim;
 	}
 
-	public void valorMostrar(int vet[], int posFim) {
+	private void valorMostrar(int vet[], int posFim) {
 		System.out.println(" __ vetor valores __ ");
 		for (int i = 0; i < posFim; i++) {
 			System.out.println("vet[" + i + "] " + vet[i]);
 		}
 	}
 
-	public void valorOrdenar(int vet[], int posFim) {
+	private void valorOrdenar(int vet[], int posFim) {
 		int bolha;
 		for (int i = 0; i < posFim - 1; i++) {
 			if (vet[i] > vet[i + 1]) {

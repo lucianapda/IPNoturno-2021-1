@@ -13,6 +13,7 @@ Assim que acessar a disciplina informe a seguinte chave de acesso (token): tCvB5
 Mas ATENÇÃO, usem o e-mail da furb (seuLogin @ furb . br) para criar a conta de vocês, e aonde for pedido para preencher o seu nome coloque o seu nome correto e completo.
 
 Para fazer esta atividade siga esta sequência de passos:
+
 1) criei caso já não tenha um projeto Java no VSCode com o nome "Unidade3";
 2) escolha um enunciado de problema a ser resolvido no URI acessando a disciplina no URI no botão do menu "ACADEMIC", seguido da atividade, e o problema em si;
 3) crie uma um novo arquivo e uma nova classe dentro do projeto "Unidade3" no VSCode com o nome "URI_XXXX" onde o "XXXX" representa o número do problema em si;
